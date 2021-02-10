@@ -38,8 +38,10 @@
     fill:black;
 }
 
-#nextProjButton:hover, #prevProjButton:hover{
+
+
+.nextProjButton:hover, .prevProjButton:hover{
     cursor: pointer;
     fill:black;
-    height: 12%;
+    height: 15%;
 }

@@ -29,18 +29,20 @@ export function Monitor (props){
     
 
     return(
-        <div id="monitor">
-            <div className="monitorTitle">
-                {/* <h1>SVG + CSS Animations</h1> */}
-                <h1>{projects[props.currentProj].title}</h1>
-            </div>
-            <div className="monitorContent">
-                {/* <SvgLogo /> */}
-                {projects[props.currentProj].component}
-            </div>
-            <div className="monitorInfo">
-                <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
-                <a href={projects[props.currentProj].link_code} target="_blank">Code</a>
+        <div id="monitor-wrapper">
+            <div id="monitor">
+                <div className="monitorTitle">
+                    {/* <h1>SVG + CSS Animations</h1> */}
+                    <h1>{projects[props.currentProj].title}</h1>
+                </div>
+                <div className="monitorContent">
+                    {/* <SvgLogo /> */}
+                    {projects[props.currentProj].component}
+                </div>
+                <div className="monitorInfo">
+                    <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
+                    <a href={projects[props.currentProj].link_code} target="_blank">Code</a>
+                </div>
             </div>
         </div>
     )

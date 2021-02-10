@@ -1,8 +1,12 @@
+#monitor-wrapper{
+    background-color: #80567C;
+    padding: 50px 50px 0px 50px;
+    
+}
 #monitor{
     height: 70vh;
     background-color: rgb(31, 31, 31);
-    border-top: 30px solid black ;
-    border-bottom: 30px solid black ;
+    border: 30px solid black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr 50px;
@@ -12,16 +16,16 @@
    flex-direction: column;
    text-align: center;
    align-items: space-around; */
-   
+   font-family: 'arcadeClassic', monospace;
 
 }
 
-@media(min-width:500px ){
+/* @media(min-width:500px ){
     #monitor{
         border-left: 10px solid black;
         border-right: 10px solid black;
     }
-}
+} */
 
 .fadeIn{
     animation : fadeIn ease 2s;
@@ -37,7 +41,8 @@
 }
 
 .monitorTitle{
-    color: lightskyblue;
+    margin-top: 20px;
+    color: gainsboro;
     font-size: clamp(20px, 3vw, 16px);;
     text-align: center;
     
@@ -48,6 +53,9 @@
 .monitorInfo{
     z-index: 100;
    text-align: center;
+    
+}
+.monitorInfo a, .monitorInfo a:hover{
     color: white;
 }
 

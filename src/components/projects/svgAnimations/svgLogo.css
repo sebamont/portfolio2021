@@ -11,6 +11,7 @@
 
 @media(min-width:1200px){
     #logo{
+        margin-top: 50px;
         height: 70%;
         width: 70%;
     }
@@ -20,15 +21,15 @@
 #logo path:nth-child(5){
     stroke-dasharray: 736.35px;
     stroke-dashoffset: 736.35px;
-    --strokeColor: black;
-    --fillColor: #6f0172;
+    --strokeColor: gainsboro;
+    --fillColor: black;
     animation: drawLineAnim 1.5s ease forwards, changeStrokeColor 2.5s ease forwards 2.5s  ;  
 }
 /*A*/
 #logo path:nth-child(4){
     stroke-dasharray: 540.72px;
     stroke-dashoffset: 540.72px;
-    --strokeColor: #6f0172;
+    --strokeColor: gainsboro;
     --fillColor: black;
     animation: drawLineAnim 1.5s ease forwards 0.3s, changeStrokeColor 2.5s ease forwards 2.5s ;   
 }
@@ -36,7 +37,7 @@
 #logo path:nth-child(3){
     stroke-dasharray: 602.78px;
     stroke-dashoffset: 602.78px;
-    --strokeColor: #6f0172;
+    --strokeColor: gainsboro;
     --fillColor: black;
     animation: drawLineAnim 1.5s ease forwards 0.6s, changeStrokeColor 2.5s ease forwards 2.5s;
 }
@@ -44,7 +45,7 @@
 #logo path:nth-child(2){
     stroke-dasharray: 377.15px;
     stroke-dashoffset: 377.15px;
-    --strokeColor: #6f0172;
+    --strokeColor: gainsboro;
     --fillColor: black;
     animation: drawLineAnim 1.5s ease forwards 0.9s, changeStrokeColor 2.5s ease forwards 2.5s;
 }
@@ -52,8 +53,8 @@
 #logo path:nth-child(1){
     stroke-dasharray: 626.84px;
     stroke-dashoffset: 626.84px;
-    --strokeColor: black;
-    --fillColor: #6f0172;
+    --strokeColor: gainsboro;
+    --fillColor: black;
     animation: drawLineAnim 1.5s ease forwards 1.2s, changeStrokeColor 2.5s ease forwards 2.5s;  
 }
 
