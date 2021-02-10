@@ -38,7 +38,7 @@
 
 .monitorTitle{
     color: lightskyblue;
-    font-size: clamp(24px, 3vw, 20px);;
+    font-size: clamp(20px, 3vw, 16px);;
     text-align: center;
     
 }
