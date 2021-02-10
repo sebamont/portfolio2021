@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import './monitor.css';
 
 //Project components
@@ -21,11 +21,7 @@ export function Monitor (props){
         },
         
     ]
-    // const [changeRender,setChangeRender] = useState(false);
 
-    // useEffect(()=>{
-    //     setChangeRender(!changeRender);, 
-    // }
     
 
     return(
@@ -41,7 +37,8 @@ export function Monitor (props){
                 </div>
                 <div className="monitorInfo">
                     <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
-                    <a href={projects[props.currentProj].link_code} target="_blank">Code</a>
+                    <a href={projects[props.currentProj].link_code} target="_blank">Code</a> <br />
+                    <span>Press joystick horizontal arrow to change, or any button to exit</span>
                 </div>
             </div>
         </div>

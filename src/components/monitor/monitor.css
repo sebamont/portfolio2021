@@ -25,6 +25,11 @@
         padding: 30px 30px 0px 30px;
     }
 }
+@media(min-width:1200px ){
+    #monitor-wrapper{
+        padding: 50px 50px 0px 50px;
+    }
+}
 
 .fadeIn{
     animation : fadeIn ease 2s;
@@ -52,12 +57,28 @@
 .monitorInfo{
     z-index: 100;
    text-align: center;
+   font-size: 20px;
     
 }
 .monitorInfo a, .monitorInfo a:hover{
     color: white;
 }
 
+.monitorInfo span{
+    padding-top: 10px;
+    font-family: monospace;
+    color: gray;
+    font-size: 12px;
+}
+
+@media(min-width:640px){
+    .monitorInfo{
+        font-size: 24px;
+    }
+    .monitorInfo span{
+        font-size: 16px;
+    }
+}
 .monitorContent{
     margin: 10px 0px;
     display:flex;
@@ -65,3 +86,4 @@
     align-items: center;
     justify-content: space-around;
 }
+

@@ -1,4 +1,9 @@
 import React, {useState} from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";  
 import logo from './logo.svg';
 import './App.css';
 
@@ -25,10 +30,14 @@ function App() {
     
   }
   return (
-    <div>
-      <Monitor currentProj={proj}/>
-      <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/projects">
+          <Monitor currentProj={proj}/>
+          <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

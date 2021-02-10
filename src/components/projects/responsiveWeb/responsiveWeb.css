@@ -7,3 +7,8 @@
     /* filter: drop-shadow(5px 5px 5px #fff); */
     filter: grayscale(100%);
 }
+@media(min-width:1200px){
+    #responsiveWeb img{
+        max-height: 480px;
+    }
+}
