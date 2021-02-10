@@ -1,6 +1,6 @@
 #monitor-wrapper{
     background-color: #80567C;
-    padding: 50px 50px 0px 50px;
+    padding: 10px 10px 0px 10px;
     
 }
 #monitor{
@@ -20,12 +20,11 @@
 
 }
 
-/* @media(min-width:500px ){
-    #monitor{
-        border-left: 10px solid black;
-        border-right: 10px solid black;
+@media(min-width:500px ){
+    #monitor-wrapper{
+        padding: 30px 30px 0px 30px;
     }
-} */
+}
 
 .fadeIn{
     animation : fadeIn ease 2s;
@@ -43,7 +42,7 @@
 .monitorTitle{
     margin-top: 20px;
     color: gainsboro;
-    font-size: clamp(20px, 3vw, 16px);;
+    font-size: clamp(12px, 3vw, 10px);;
     text-align: center;
     
 }
