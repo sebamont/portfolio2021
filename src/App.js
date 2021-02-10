@@ -1,23 +1,33 @@
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Components:
+import {Monitor} from './components/monitor/monitor'
+import {Joystick} from './components/joystick/joystick'
+
 function App() {
+  const [proj, setProj] = useState(0)
+  
+  const handleNextProj = (e) => {
+    e.preventDefault();
+    if (proj < 1){ //changing for the # of projects i have defined inside monitor.js
+      let nextProj = proj +1;
+      setProj(nextProj);
+    }
+  }
+  const handlePrevProj = (e) => {
+    e.preventDefault();
+    if (proj > 0){
+      let prevProj = proj -1;
+      setProj(prevProj);
+    }
+    
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Monitor currentProj={proj}/>
+      <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>
     </div>
   );
 }

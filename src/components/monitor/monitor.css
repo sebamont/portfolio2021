@@ -1,0 +1,60 @@
+#monitor{
+    height: 70vh;
+    background-color: rgb(31, 31, 31);
+    border-top: 30px solid black ;
+    border-bottom: 30px solid black ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    width: 100%;
+   /* display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   align-items: space-around; */
+   
+
+}
+
+@media(min-width:500px ){
+    #monitor{
+        border-left: 10px solid black;
+        border-right: 10px solid black;
+    }
+}
+
+.fadeIn{
+    animation : fadeIn ease 2s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.monitorTitle{
+    color: lightskyblue;
+    font-size: clamp(24px, 3vw, 20px);;
+    text-align: center;
+    
+}
+
+
+
+.monitorInfo{
+    z-index: 100;
+   text-align: center;
+    color: white;
+}
+
+.monitorContent{
+    margin: 10px 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
