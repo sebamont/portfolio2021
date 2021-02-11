@@ -5,6 +5,7 @@ import './monitor.css';
 import {SvgLogo} from '../projects/svgAnimations/svgLogo';
 import {ResponsiveWeb} from '../projects/responsiveWeb/responsiveWeb';
 import {DjangoBlog} from '../projects/djangoBlog/djangoBlog';
+import {UnityHobby} from '../projects/unityHobby/unityHobby';
 
 export function Monitor (props){
     const projects = [
@@ -25,6 +26,12 @@ export function Monitor (props){
             component : <ResponsiveWeb />,
             link_to : "https://rotonda-react.vercel.app/",
             link_code : "https://github.com/sebamont/rotonda-react"
+        },
+        {
+            title : "Hobby: GameDev with Unity",
+            component : <UnityHobby />,
+            link_to : "/",
+            link_code : "/"
         },
         
     ]
