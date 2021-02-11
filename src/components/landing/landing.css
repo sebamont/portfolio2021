@@ -12,7 +12,7 @@
 .header-container{
     padding: 0 10% 0 10%;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1.8fr 1fr;
     font-family: monospace;
@@ -20,7 +20,7 @@
 }
 
 .left-column{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -50,7 +50,7 @@
 }
 
 .right-column {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
