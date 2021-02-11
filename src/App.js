@@ -16,7 +16,7 @@ function App() {
   
   const handleNextProj = (e) => {
     e.preventDefault();
-    if (proj < 1){ //changing for the # of projects i have defined inside monitor.js
+    if (proj < 2){ //changing for the # of projects i have defined inside monitor.js
       let nextProj = proj +1;
       setProj(nextProj);
     }

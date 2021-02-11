@@ -2,12 +2,19 @@ import React from 'react';
 import './monitor.css';
 
 //Project components
-import {SvgLogo} from '../projects/svgAnimations/svgLogo'
-import {ResponsiveWeb} from '../projects/responsiveWeb/responsiveWeb'
+import {SvgLogo} from '../projects/svgAnimations/svgLogo';
+import {ResponsiveWeb} from '../projects/responsiveWeb/responsiveWeb';
+import {DjangoBlog} from '../projects/djangoBlog/djangoBlog';
 
 export function Monitor (props){
-    const projects = [{
-       
+    const projects = [
+        {
+            title : "Django's suggestions blog.",
+            component : <DjangoBlog />,
+            link_to : "https://blogsito2.herokuapp.com/",
+            link_code : "https://github.com/sebamont/publicBlog"
+        },
+        {
             title : "SVG + CSS Animations",
             component : <SvgLogo />,
             link_to : "/",

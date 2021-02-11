@@ -1,0 +1,14 @@
+#djangoBlog-container img{
+    display: flex;
+    align-self: center;
+    max-height: 360px;
+    max-width: 100%;
+    height: auto;
+    /* filter: drop-shadow(5px 5px 5px #fff); */
+    filter: grayscale(100%);
+}
+@media(min-width:1200px){
+    #djangoBlog-container img{
+        max-height: 480px;
+    }
+}
