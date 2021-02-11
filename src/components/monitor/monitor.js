@@ -50,9 +50,13 @@ export function Monitor (props){
                     {projects[props.currentProj].component}
                 </div>
                 <div className="monitorInfo">
-                    <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
-                    <a href={projects[props.currentProj].link_code} target="_blank">Code</a> <br />
-                    <span>Press joystick horizontal arrow to change, or any button to exit</span>
+                    {props.currentProj < 3 &&
+                    <div>
+                        <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
+                        <a href={projects[props.currentProj].link_code} target="_blank">Code</a> <br />
+                    </div>
+                    }
+                        <span>Press joystick left/rigth buttons for prev/next, or any other button to exit</span>
                 </div>
             </div>
         </div>

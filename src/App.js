@@ -7,7 +7,10 @@ import {
 import logo from './logo.svg';
 import './App.css';
 
-// Components:
+//Landing page components:
+import {Main} from './components/landing/landing';
+
+// Project section Components:
 import {Monitor} from './components/monitor/monitor'
 import {Joystick} from './components/joystick/joystick'
 
@@ -32,6 +35,9 @@ function App() {
   return (
     <Router>
       <Switch>
+      <Route exact path="/">
+          <Main />
+        </Route>
         <Route exact path="/projects">
           <Monitor currentProj={proj}/>
           <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>

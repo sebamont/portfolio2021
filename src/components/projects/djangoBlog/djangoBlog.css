@@ -9,6 +9,6 @@
 }
 @media(min-width:1200px){
     #djangoBlog-container img{
-        max-height: 480px;
+        max-height: 400px;
     }
 }

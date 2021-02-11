@@ -1,0 +1,246 @@
+/*general values*/
+.main-container{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.arcade-font{
+    font-family: 'arcadeClassic', monospace;
+}
+
+/*Header*/
+.header-container{
+    padding: 0 10% 0 10%;
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    font-family: monospace;
+    font-size: max(2vw,24px);
+}
+
+.left-column{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.left-column h3, .left-column p {
+    font-size: smaller;
+    margin-top: 5%;
+    text-align: left;
+}
+
+
+
+.left-column a {
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    color: #80567C;
+}
+
+.left-column a:hover{
+    background-color: #80567C;
+    border-radius: 5px;
+    color:white;
+}
+
+.right-column {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right-column img{
+    max-width: 300px;
+   width: 70%;
+    height: auto;
+}
+
+/*header media queries*/
+@media (min-width:1700px){
+    .header-container{
+        font-size: 40px;
+        height: 100vh;
+    }
+    .left-column{
+        height: 100vh;
+    }
+    .right-column{
+        height: 100vh;
+    }
+}
+
+@media(min-width:1200px){
+    .right-column img{
+        width: 100%;
+    }
+}
+
+/*Skills & projects section*/
+.skills-container{
+    padding: 0 10% 0 10%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-template-areas: "about about" "skills skills" "projects projects";
+    font-family: monospace;
+    background-color: whitesmoke;
+    row-gap: 0px;
+    column-gap: 10px;
+}
+
+.skills-container div{
+    padding: 20px 0;
+    /* border: 1px solid red; */
+    
+
+}
+
+.skills-container h3{
+    text-align: center;
+    font-size: max(3vw, 36px);
+    margin-bottom: 5px;
+}
+
+
+
+.skills-container p{
+    font-size: max(0.8vw, 16px);
+}
+
+
+
+.about-me{
+    grid-area: about;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+   
+    
+}
+
+.skills {
+    grid-area: skills;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.skills div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.skills div div {
+    margin: 0px 2px 20px 2px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #502a66;
+    border-radius: 20px;
+    box-shadow: 3px 8px 1px rgba(0,0, 0, 0.4);
+}
+
+.skills i{
+    font-size: min(4vw, 80px);
+    color: white;
+}
+.skills span{
+    margin-top: 2px;
+    font-size: min(2vw,16px);
+    color: white;
+}
+
+#django-icon{
+    --buttonOpacity: 0.66;
+    animation: buttonLike 2.5s ease forwards;
+}
+#react-icon{
+    --buttonOpacity: 0.58;
+    animation: buttonLike 2.5s ease forwards;
+}
+#html-icon{
+    --buttonOpacity: 0.74;
+    animation: buttonLike 2.5s ease forwards;
+}
+#css-icon{
+    --buttonOpacity: 0.8;
+    animation: buttonLike 2.5s ease forwards;
+}
+#bootstrap-icon{
+    --buttonOpacity: 0.7;
+    animation: buttonLike 2.5s ease forwards;
+}
+#git-icon{
+    --buttonOpacity: 0.5;
+    animation: buttonLike 2.5s ease forwards;
+}
+#coffee-icon{
+    --buttonOpacity: 0.3;
+    animation: buttonLike 2.5s ease forwards;
+}
+#teamwork-icon{
+    --buttonOpacity: 0.85;
+    animation: buttonLike 2.5s ease forwards;
+}
+#communication-icon{
+    --buttonOpacity: 0.9;
+    animation: buttonLike 2.5s ease forwards;
+}
+
+@keyframes buttonLike {
+    from{
+        opacity: 1;
+        
+        
+    }
+    to{
+        opacity: var(--buttonOpacity)
+
+    }
+}
+
+.projects {
+    grid-area: projects;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.projects h5{
+    margin-top: 10px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    font-size: max(1.7vw, 24px);
+    animation: blink 0.5s ease infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+}
+
+.projects h5 a:visited, .projects h5 a:hover, .projects h5 a:active  {
+    color:rgb(116, 116, 116);
+    text-decoration: none;
+}
