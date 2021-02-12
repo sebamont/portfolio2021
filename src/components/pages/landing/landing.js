@@ -24,7 +24,7 @@ export function Main(){
                     <img className="header-avatar" src={Avatar} />
                 </div>
             </header>
-            <svg id="arrow-down" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 200 ? "0" : "1"}`}}>
+            <svg id="arrow-down" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 400 ? "0" : "1"}`}}>
                 <path d="M39 33L0.0288572 0.75L77.9711 0.750007L39 33Z" fill="#80567C"/>
             </svg>
             <section className="skills-container">

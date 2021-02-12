@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 1.8fr;
     font-family: monospace;
-    font-size: max(2vw,24px);
+    
 }   
 
 .contact-left-column, .contact-right-column{
@@ -25,8 +25,22 @@
     justify-content: center;
     
 }
+#contact-title{
+    font-size: 70px;
+}
 
-.contact-right-column i{
-    color: #80567C
+#contact-text{
+    margin-top: 5%;
+    font-size:max(2vw,16px);
+}
+
+.contact-options{
+    margin-top: 5%;
+}
+
+.contact-right-column a{
+    color: #80567C;
+    font-size:max(2vw,30px);
+    margin-left: 10px;
 }
 

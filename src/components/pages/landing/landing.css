@@ -67,10 +67,12 @@
 }
 
 .right-column img{
+    border-radius: 50%;
     max-width: 300px;
    width: 70%;
     height: auto;
 }
+
 
 /*header media queries*/
 @media (min-width:1700px){
