@@ -1,4 +1,6 @@
 import React from 'react';
+import {motion} from 'framer-motion';
+import {pageTransition, PageTransitionDurations} from '../../../pageTransition/pageTransition';
 import './monitor.css';
 
 //Project components
@@ -39,7 +41,7 @@ export function Monitor (props){
     
 
     return(
-        <div id="monitor-wrapper">
+        <motion.div id="monitor-wrapper" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <div id="monitor">
                 <div className="monitorTitle">
                     {/* <h1>SVG + CSS Animations</h1> */}
@@ -59,6 +61,6 @@ export function Monitor (props){
                         <span>Press joystick left/rigth buttons for prev/next, or any other button to exit</span>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

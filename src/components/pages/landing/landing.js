@@ -1,5 +1,9 @@
 import React from 'react';
 import { useScrollData } from "scroll-data-hook";
+
+//Required for framer-motion
+import {motion} from 'framer-motion';
+import {pageTransition, PageTransitionDurations} from '../../pageTransition/pageTransition';
 import {Link} from 'react-router-dom';
 import Avatar from './pixelAvatar2.png'
 import './landing.css';
@@ -7,7 +11,7 @@ export function Main(){
     const {position} = useScrollData();
 
     return(
-        <div className="main-container" >
+        <motion.div className="main-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <svg id="arrow-down" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 100 ? "0" : "1"}`}}>
                 <path d="M39 33L0.0288572 0.75L77.9711 0.750007L39 33Z" fill="#80567C"/>
             </svg>
@@ -16,7 +20,7 @@ export function Main(){
                 <div className="left-column">
                     <h1><span className="arcade-font">Hello!</span> <br /> I'm Sebastian Montagna</h1>
                     <h3>And I am looking for my <u>first IT Job</u>. <br />Developer by vocation, accountant by profession, gamer by passion.</h3>
-                    <p><small>Got any opportunity? I'm looking forward to your <Link to="/"><b>Contact</b></Link>.</small></p>
+                    <p><small>Got any opportunity? I'm looking forward to your <Link to="/contact"><b>Contact</b></Link>.</small></p>
                 </div>
                 <div className="right-column">
                     <img className="header-avatar" src={Avatar} />
@@ -55,6 +59,7 @@ export function Main(){
                     <h5 className="arcade-font"><Link to="/projects">Press Start Button <small>(Click here)</small></Link></h5>
                 </div>
             </section>
-        </div>
+            
+        </motion.div>
     )
 }

@@ -12,7 +12,7 @@
 #arrow-down{
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 46%;
     animation: blink 1.5s linear reverse infinite;
 }
 
