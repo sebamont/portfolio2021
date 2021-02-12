@@ -8,6 +8,14 @@
     font-family: 'arcadeClassic', monospace;
 }
 
+/*ArrowDown*/
+#arrow-down{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    animation: blink 1.5s linear reverse infinite;
+}
+
 /*Header*/
 .header-container{
     padding: 0 10% 0 10%;
@@ -169,11 +177,11 @@
 }
 
 #django-icon{
-    --buttonOpacity: 0.66;
+    --buttonOpacity: 0.69;
     animation: buttonLike 2.5s ease forwards;
 }
 #react-icon{
-    --buttonOpacity: 0.58;
+    --buttonOpacity: 0.65;
     animation: buttonLike 2.5s ease forwards;
 }
 #html-icon{
@@ -202,6 +210,18 @@
 }
 #communication-icon{
     --buttonOpacity: 0.9;
+    animation: buttonLike 2.5s ease forwards;
+}
+#english-icon{
+    --buttonOpacity: 0.9;
+    animation: buttonLike 2.5s ease forwards;
+}
+#gamedev-icon{
+    --buttonOpacity: 0.35;
+    animation: buttonLike 2.5s ease forwards;
+}
+#uxui-icon{
+    --buttonOpacity: 0.25;
     animation: buttonLike 2.5s ease forwards;
 }
 

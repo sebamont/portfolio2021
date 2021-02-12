@@ -1,15 +1,22 @@
 import React from 'react';
+import { useScrollData } from "scroll-data-hook";
 import {Link} from 'react-router-dom';
-import Avatar from './pixelAvatar.png'
+import Avatar from './pixelAvatar2.png'
 import './landing.css';
 export function Main(){
+    const {position} = useScrollData();
+
     return(
-        <div className="main-container">
+        <div className="main-container" >
+            <svg id="arrow-down" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 100 ? "0" : "1"}`}}>
+                <path d="M39 33L0.0288572 0.75L77.9711 0.750007L39 33Z" fill="#80567C"/>
+            </svg>
+
             <header className="header-container">
                 <div className="left-column">
                     <h1><span className="arcade-font">Hello!</span> <br /> I'm Sebastian Montagna</h1>
-                    <h3>And I am looking for my first IT Job. <br />Developer by vocation, accountant by profession, gamer by passion.</h3>
-                    <p><small>Got any opportunity? I'm looking forward to your <Link to="/">Contact</Link>.</small></p>
+                    <h3>And I am looking for my <u>first IT Job</u>. <br />Developer by vocation, accountant by profession, gamer by passion.</h3>
+                    <p><small>Got any opportunity? I'm looking forward to your <Link to="/"><b>Contact</b></Link>.</small></p>
                 </div>
                 <div className="right-column">
                     <img className="header-avatar" src={Avatar} />
@@ -26,18 +33,20 @@ export function Main(){
                 
                 <div className="skills">
                     <h3 className="arcade-font">Skills</h3>
-                    <p>the more saturated the better . <small><em>*according to my subjectivity</em>    </small>  </p>
+                    <p>the more opaque the better . <small><em>*according to my subjectivity</em>    </small>  </p>
                     <div>
-                    <div id="teamwork-icon"><i class="fas fa-users" ></i><span> Teamwork</span></div>
-                        
-                    <div id="css-icon"><i class="devicon-css3-plain" ></i><span> css</span></div>
-                        <div id="html-icon"><i class="devicon-html5-plain" ></i><span> html</span></div>
-                        <div id="django-icon"><i class="devicon-django-plain" ></i><span> django</span></div>
-                        <div id="react-icon"><i class="devicon-react-original" ></i><span> react</span> </div>
-                        <div id="git-icon"><i class="devicon-git-plain" ></i><span>  git</span></div>
-                        <div id="communication-icon"><i class="far fa-comment" ></i><span> Communication</span> </div>
-                        <div id="bootstrap-icon"><i class="devicon-bootstrap-plain" ></i><span> bootstrap</span></div>
-                        <div id="coffee-icon"><i class="fas fa-coffee" ></i><span> Coffee drinker</span></div>
+                        <div id="communication-icon"><i className="far fa-comment" ></i><span> Communication</span> </div>
+                        <div id="english-icon"><i className="fas fa-globe-americas"></i><span>English</span>   </div>
+                        <div id="teamwork-icon"><i className="fas fa-users" ></i><span> Teamwork</span></div>
+                        <div id="css-icon"><i className="devicon-css3-plain" ></i><span> CSS</span></div>
+                        <div id="html-icon"><i className="devicon-html5-plain" ></i><span> HTML</span></div>
+                        <div id="bootstrap-icon"><i className="devicon-bootstrap-plain" ></i><span> Bootstrap</span></div>
+                        <div id="django-icon"><i className="devicon-django-plain" ></i><span> Django</span></div>
+                        <div id="react-icon"><i className="devicon-react-original" ></i><span> React</span> </div>
+                        <div id="git-icon"><i className="devicon-git-plain" ></i><span>  git</span></div>
+                        <div id="gamedev-icon"><i className="fas fa-gamepad"></i><span>Game Dev</span>   </div>
+                        <div id="coffee-icon"><i className="fas fa-coffee" ></i><span> Coffee drinker</span></div>
+                        <div id="uxui-icon"><i class="devicon-sketch-line"></i><span>UX/UI</span>   </div>
                     </div>
 
                 </div>
@@ -46,9 +55,6 @@ export function Main(){
                     <h5 className="arcade-font"><Link to="/projects">Press Start Button <small>(Click here)</small></Link></h5>
                 </div>
             </section>
-            <footer className="footer-container">
-                
-            </footer>
         </div>
     )
 }
