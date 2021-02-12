@@ -47,10 +47,10 @@ export function Joystick(props){
                 <rect x="52" y="69" width="20" height="25" fill="#777777"/>
                 
                 <g filter="url(#filter8_d)">
-                <line x1="120.083" y1="42.0115" x2="183.449" y2="42.0115" stroke="#DFDFDF" stroke-width="3"/>
+                <line x1="120.083" y1="42.0115" x2="183.449" y2="42.0115" stroke="#DFDFDF" strokeWidth="3"/>
                 </g>
                 <g filter="url(#filter9_d)">
-                <line x1="120.083" y1="34.83" x2="183.449" y2="34.83" stroke="#DFDFDF" stroke-width="3"/>
+                <line x1="120.083" y1="34.83" x2="183.449" y2="34.83" stroke="#DFDFDF" strokeWidth="3"/>
                 </g>
                 <g filter="url(#filter10_di)">
                 <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 222.446 67.1678)" fill="#60545F" id="leftButton" className="exitButtons"/></Link>
@@ -65,8 +65,8 @@ export function Joystick(props){
                 <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 259.256 65.1084)" fill="#4E5263" id="rightButtom" className="exitButtons"/></Link>
                 </g>
                 <defs>
-                <filter id="filter0_i" x="9.40265" y="0" width="285.993" height="83.4191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter0_i" x="9.40265" y="0" width="285.993" height="83.4191" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                 <feOffset dy="4"/>
@@ -75,8 +75,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
                 </filter>
-                <filter id="filter1_d" x="202.261" y="0" width="97.1353" height="87.4191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter1_d" x="202.261" y="0" width="97.1353" height="87.4191" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -84,8 +84,8 @@ export function Joystick(props){
                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                 </filter>
-                <filter id="filter2_i" x="0.953796" y="3.802" width="302.046" height="128.198" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter2_i" x="0.953796" y="3.802" width="302.046" height="128.198" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                 <feOffset dy="4"/>
@@ -94,8 +94,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
                 </filter>
-                <filter id="filter3_i" x="38.9736" y="12.2509" width="221.782" height="132.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter3_i" x="38.9736" y="12.2509" width="221.782" height="132.221" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                 <feOffset dy="49"/>
@@ -104,8 +104,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 0.8125 0 0 0 0 0.795573 0 0 0 0 0.795573 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
                 </filter>
-                <filter id="filter4_di" x="23" y="30" width="80" height="79" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter4_di" x="23" y="30" width="80" height="79" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -119,8 +119,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter5_di" x="202" y="30" width="79" height="79" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter5_di" x="202" y="30" width="79" height="79" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -134,8 +134,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter6_di" x="109.033" y="71.3635" width="40.3651" height="22.7335" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter6_di" x="109.033" y="71.3635" width="40.3651" height="22.7335" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -149,8 +149,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter7_di" x="156.033" y="71.6219" width="40.3651" height="22.7335" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter7_di" x="156.033" y="71.6219" width="40.3651" height="22.7335" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -164,8 +164,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter8_d" x="116.083" y="37.5115" width="71.3663" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter8_d" x="116.083" y="37.5115" width="71.3663" height="11" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="1"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -173,8 +173,8 @@ export function Joystick(props){
                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                 </filter>
-                <filter id="filter9_d" x="116.083" y="30.33" width="71.3663" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter9_d" x="116.083" y="30.33" width="71.3663" height="11" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="1"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -182,8 +182,8 @@ export function Joystick(props){
                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                 </filter>
-                <filter id="filter10_di" x="207.363" y="59.5167" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter10_di" x="207.363" y="59.5167" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -197,8 +197,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter11_di" x="229.203" y="43.3769" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter11_di" x="229.203" y="43.3769" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -212,8 +212,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter12_di" x="222.333" y="73.5971" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter12_di" x="222.333" y="73.5971" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>
@@ -227,8 +227,8 @@ export function Joystick(props){
                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
                 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
                 </filter>
-                <filter id="filter13_di" x="244.174" y="57.4573" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter13_di" x="244.174" y="57.4573" width="30.1654" height="23.3022" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>
                 <feGaussianBlur stdDeviation="2"/>

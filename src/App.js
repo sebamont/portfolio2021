@@ -18,6 +18,9 @@ import {Main} from './components/pages/landing/landing';
 import {Monitor} from './components/pages/projects/monitor/monitor'
 import {Joystick} from './components/pages/projects/joystick/joystick'
 
+// contact section components:
+import {Contact} from './components/pages/contact/contact';
+
 function App() {
   const [proj, setProj] = useState(0)
   
@@ -49,7 +52,7 @@ function App() {
               <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>
           </Route>
           <Route exact path="/contact">
-
+              <Contact />
           </Route>
         </Switch>
       </AnimatePresence>

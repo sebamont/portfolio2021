@@ -1,0 +1,32 @@
+.contact-container{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.arcade-font{
+    font-family: 'arcadeClassic', monospace;
+}
+
+.contact-header-container{
+    padding: 0 10% 0 10%;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    font-family: monospace;
+    font-size: max(2vw,24px);
+}   
+
+.contact-left-column, .contact-right-column{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-right-column i{
+    color: #80567C
+}
+

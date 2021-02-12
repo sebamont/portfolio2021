@@ -12,9 +12,7 @@ export function Main(){
 
     return(
         <motion.div className="main-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
-            <svg id="arrow-down" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 100 ? "0" : "1"}`}}>
-                <path d="M39 33L0.0288572 0.75L77.9711 0.750007L39 33Z" fill="#80567C"/>
-            </svg>
+            
 
             <header className="header-container">
                 <div className="left-column">
@@ -26,6 +24,9 @@ export function Main(){
                     <img className="header-avatar" src={Avatar} />
                 </div>
             </header>
+            <svg id="arrow-down" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 200 ? "0" : "1"}`}}>
+                <path d="M39 33L0.0288572 0.75L77.9711 0.750007L39 33Z" fill="#80567C"/>
+            </svg>
             <section className="skills-container">
                 <div className="about-me">
                     <h3 className="arcade-font">About me</h3>
@@ -50,7 +51,7 @@ export function Main(){
                         <div id="git-icon"><i className="devicon-git-plain" ></i><span>  git</span></div>
                         <div id="gamedev-icon"><i className="fas fa-gamepad"></i><span>Game Dev</span>   </div>
                         <div id="coffee-icon"><i className="fas fa-coffee" ></i><span> Coffee drinker</span></div>
-                        <div id="uxui-icon"><i class="devicon-sketch-line"></i><span>UX/UI</span>   </div>
+                        <div id="uxui-icon"><i className="devicon-sketch-line"></i><span>UX/UI</span>   </div>
                     </div>
 
                 </div>
