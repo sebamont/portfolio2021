@@ -12,7 +12,7 @@ export function NavBar(props){
                 <li><Link to ="/contact">{props.english ? "Contact" : "Contacto"}</Link></li>
                 
             </ul>
-            <div><Link onClick={props.handleChangeLanguage}><img src={props.english ? "https://www.countryflags.io/ar/flat/24.png" : "https://www.countryflags.io/gb/flat/24.png"} alt="flag" /></Link></div>
+            <div><button onClick={props.handleChangeLanguage}><img src={props.english ? "https://www.countryflags.io/ar/flat/24.png" : "https://www.countryflags.io/gb/flat/24.png"} alt="flag" /></button></div>
         </nav>
     )
 }

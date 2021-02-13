@@ -42,8 +42,12 @@
         color: black;
     }
 }
+.navbar-container button, .navbar-container button:active, .navbar-container button:visited{
+    border: 0;
+}
 
-.nav div a:hover{
+
+.nav div a:hover, .navbar-container button:hover{
     cursor: pointer;
 }
 

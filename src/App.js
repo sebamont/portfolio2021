@@ -26,6 +26,9 @@ import {Joystick} from './components/pages/projects/joystick/joystick'
 // contact section components:
 import {Contact} from './components/pages/contact/contact';
 
+// 404 not found page component:
+import {NotFound} from './components/pages/notFound/notFound';
+
 function App() {
   const [proj, setProj] = useState(0)
   const [english, setEnglish] = useLocalStorage("english", true);
@@ -67,6 +70,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
               <Contact english={english}/>
+          </Route>
+          <Route path="*">
+              <NotFound english={english}/>
           </Route>
         </Switch>
         
