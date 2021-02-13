@@ -1,10 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import {pageTransition, PageTransitionDurations} from '../../pageTransition/pageTransition';
 import './contact.css';
 
-export function Contact(){
+export function Contact(props){
 
     return(
         <motion.div className="contact-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
@@ -14,8 +13,8 @@ export function Contact(){
                         
                 </div>
                 <div className="contact-right-column">
-                    <h2 id="contact-title" className="arcade-font">Thank you for passing by</h2>
-                    <p id="contact-text">If you'd like to contact me, whether it is about a Job located in Salta or Cordoba (ARG), a Remote Job, a Freelance Job, or just because you felt like it, you can find me in</p>     
+                    <h2 id="contact-title" className="arcade-font">{props.english ? "Thank you for passing by" : "Gracias por pasarte"}</h2>
+                    <p id="contact-text">{props.english ? "If you'd like to contact me, whether it is about a Job located Cordoba ARG (willing to relocate), a Remote Job, a Freelance Job, or just because you felt like it, you can find me in" : "Si te interesaría contactarme, ya sea para un trabajo Remoto, ubicado en Córdoba-ARG, Freelance, o por otra cuestión, me podés encontrar en"}</p>     
                     <div className="contact-options">
                         <a href="mailto:sebamontagna@gmail.com" target="_blank"><i className="far fa-envelope"></i></a>
                         <a href="https://github.com/sebamont" target="_blank"><i className="fab fa-github"></i></a>

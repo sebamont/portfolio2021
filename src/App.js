@@ -11,6 +11,11 @@ import {AnimatePresence} from 'framer-motion';
 
 import './App.css';
 
+//Overall components
+import {useLocalStorage} from './functions/useLocalStorage';
+import {NavBar} from './components/navBar/navbar';
+
+
 //Landing page components:
 import {Main} from './components/pages/landing/landing';
 
@@ -23,6 +28,12 @@ import {Contact} from './components/pages/contact/contact';
 
 function App() {
   const [proj, setProj] = useState(0)
+  const [english, setEnglish] = useLocalStorage("english", true);
+
+  const handleChangeLanguage = (e) => {
+    e.preventDefault();
+    setEnglish(!english);
+  }
   
   const handleNextProj = (e) => {
     e.preventDefault();
@@ -42,20 +53,25 @@ function App() {
 
   const location = useLocation();
   return (
+    <div>
+      <NavBar handleChangeLanguage={handleChangeLanguage} english={english}/>
       <AnimatePresence exitBeforeEnter>
+        
         <Switch location={location} key={location.pathname}>
           <Route exact path="/">
-              <Main />
+              <Main english={english}/>
           </Route>
           <Route exact path="/projects">
-              <Monitor currentProj={proj}/>
+              <Monitor currentProj={proj} english={english}/>
               <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>
           </Route>
           <Route exact path="/contact">
-              <Contact />
+              <Contact english={english}/>
           </Route>
         </Switch>
+        
       </AnimatePresence>
+      </div>
   );
 }
 

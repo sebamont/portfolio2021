@@ -1,0 +1,50 @@
+.navbar-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px 0 rgba(128, 86, 124, 0.5);
+}
+
+.nav{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline;
+    margin: 0 10px;
+    font-size: min(24px,2vh);
+}
+.nav li a, .nav li a:hover, .nav li a:visited, .nav li a:active{
+    color: rgb(128, 86, 124);
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    animation: animate-text 0.5s ease-in-out forwards;
+}
+
+.nav div{
+    vertical-align: middle;
+}
+
+
+@keyframes animate-text{
+    from{
+        font-size: min(24px,2vh);
+        color: #80567C ;
+    }
+    to{
+        font-size: min(28px,2.3vh);
+        color: black;
+    }
+}
+
+.nav div a:hover{
+    cursor: pointer;
+}
+
+
