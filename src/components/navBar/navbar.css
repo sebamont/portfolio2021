@@ -43,6 +43,7 @@
     }
 }
 .navbar-container button, .navbar-container button:active, .navbar-container button:visited{
+    outline: none;
     border: 0;
 }
 
@@ -52,3 +53,6 @@
 }
 
 
+.current-flag{
+    filter: grayscale(100%);
+}

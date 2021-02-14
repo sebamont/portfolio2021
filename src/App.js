@@ -66,7 +66,7 @@ function App() {
           </Route>
           <Route exact path="/projects">
               <Monitor currentProj={proj} english={english}/>
-              <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj}/>
+              <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj} currentProj={proj}/>
           </Route>
           <Route exact path="/contact">
               <Contact english={english}/>
