@@ -8,9 +8,16 @@ import {SvgLogo} from '../projects/svgAnimations/svgLogo';
 import {ResponsiveWeb} from '../projects/responsiveWeb/responsiveWeb';
 import {DjangoBlog} from '../projects/djangoBlog/djangoBlog';
 import {UnityHobby} from '../projects/unityHobby/unityHobby';
+import {APIRest} from '../projects/apiRest/apiRest';
 
 export function Monitor (props){
     const projects = [
+        {
+            title : props.english ? "Consuming Twitch Rest APIs with React" : "Usando Rest APIs de Twitch con React",
+            component : <APIRest />,
+            link_to : "https://game-list-twitch-api.vercel.app/",
+            link_code : "https://codesandbox.io/s/consuming-twitch-api-mbvm7"
+        },
         {
             title : props.english ? "Django's suggestions blog." : "Blog de sugerencias con Django",
             component : <DjangoBlog />,
@@ -52,7 +59,7 @@ export function Monitor (props){
                     {projects[props.currentProj].component}
                 </div>
                 <div className="monitorInfo">
-                    {props.currentProj < 3 &&
+                    {props.currentProj < 4 &&
                     <div>
                         <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
                         <a href={projects[props.currentProj].link_code} target="_blank">Code</a> <br />
