@@ -5,10 +5,7 @@ import {pageTransition, PageTransitionDurations}from '../../../pageTransition/pa
 import './joystick.css';
 
 export function Joystick(props){
-    const handleStartButton = (event) => {
-        event.preventDefault();
-        alert("Start button was pressed");
-    }
+ 
     return(
         <motion.div id="joystick-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <div id="wire">
