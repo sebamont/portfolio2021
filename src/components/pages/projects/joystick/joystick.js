@@ -33,13 +33,13 @@ export function Joystick(props){
                 <circle cx="241.5" cy="65.5" r="35.5" fill="#DEDBDB"/>
                 </g>
                 <g filter="url(#filter6_di)">
-                <Link to="/contact"><path d="M132.613 85.936C123.877 86.778 115.274 84.2344 113.397 80.2548C111.521 76.2751 117.082 72.3665 125.819 71.5245C134.555 70.6825 143.158 73.2261 145.034 77.2058C146.911 81.1854 141.349 85.0941 132.613 85.936Z" fill="#7C7F89" id="exitButton" className="exitButtons"/></Link>
+                <Link to="/contact"><path d="M132.613 85.936C123.877 86.778 115.274 84.2344 113.397 80.2548C111.521 76.2751 117.082 72.3665 125.819 71.5245C134.555 70.6825 143.158 73.2261 145.034 77.2058C146.911 81.1854 141.349 85.0941 132.613 85.936Z" fill="#7C7F89" id="exit-button" className="exit-buttons"/></Link>
                 </g>
                 <g filter="url(#filter7_di)">
-                <Link to="/contact"><path d="M179.613 86.1944C170.877 87.0364 162.274 84.4928 160.397 80.5132C158.521 76.5335 164.082 72.6248 172.819 71.7829C181.555 70.9409 190.158 73.4845 192.034 77.4642C193.911 81.4438 188.349 85.3525 179.613 86.1944Z" fill="#7C7F89" id="startButton" className="exitButtons"/></Link>
+                <Link to="/contact"><path d="M179.613 86.1944C170.877 87.0364 162.274 84.4928 160.397 80.5132C158.521 76.5335 164.082 72.6248 172.819 71.7829C181.555 70.9409 190.158 73.4845 192.034 77.4642C193.911 81.4438 188.349 85.3525 179.613 86.1944Z" fill="#7C7F89" id="start-button" className="exit-buttons"/></Link>
                 </g>
-                <rect x="71" y="55" width="19" height="19" fill="#777777" className={props.currentProj < 4 ? "nextProjButton" : ""} onClick={props.handleNextProj}/>
-                <rect x="35" y="55" width="18" height="19" fill="#777777" className={props.currentProj > 0 ? "prevProjButton" : ""} onClick={props.handlePrevProj}/>
+                <rect x="71" y="55" width="19" height="19" fill="#777777" className={props.currentProj < props.maxIndexOfProj ? "next-proj-button" : ""} onClick={props.handleNextProj}/>
+                <rect x="35" y="55" width="18" height="19" fill="#777777" className={props.currentProj > 0 ? "prev-proj-button" : ""} onClick={props.handlePrevProj}/>
                 <rect x="52" y="38" width="20" height="36" fill="#777777"/>
                 <rect x="52" y="69" width="20" height="25" fill="#777777"/>
                 
@@ -50,16 +50,16 @@ export function Joystick(props){
                 <line x1="120.083" y1="34.83" x2="183.449" y2="34.83" stroke="#DFDFDF" strokeWidth="3"/>
                 </g>
                 <g filter="url(#filter10_di)">
-                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 222.446 67.1678)" fill="#60545F" id="leftButton" className="exitButtons"/></Link>
+                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 222.446 67.1678)" fill="#60545F" id="left-button" className="exit-buttons"/></Link>
                 </g>
                 <g filter="url(#filter11_di)">
-                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 244.286 51.028)" fill="#60545F" id="topButton" className="exitButtons"/></Link>
+                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 244.286 51.028)" fill="#60545F" id="top-button" className="exit-buttons"/></Link>
                 </g>
                 <g filter="url(#filter12_di)">
-                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 237.416 81.2482)" fill="#4E5263" id="bottomButton" className="exitButtons"/></Link>
+                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 237.416 81.2482)" fill="#4E5263" id="bottom-button" className="exit-buttons"/></Link>
                 </g>
                 <g filter="url(#filter13_di)">
-                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 259.256 65.1084)" fill="#4E5263" id="rightButtom" className="exitButtons"/></Link>
+                <Link to="/contact"><ellipse rx="8.03017" ry="10.8098" transform="matrix(0.963461 0.26785 -0.734086 0.679057 259.256 65.1084)" fill="#4E5263" id="right-button" className="exit-buttons"/></Link>
                 </g>
                 <defs>
                 <filter id="filter0_i" x="9.40265" y="0" width="285.993" height="83.4191" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">

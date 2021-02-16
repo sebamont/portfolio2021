@@ -50,16 +50,16 @@ export function Monitor (props){
     return(
         <motion.div id="monitor-wrapper" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <div id="monitor">
-                <div className="monitorTitle">
+                <div className="monitor-title">
                     {/* <h1>SVG + CSS Animations</h1> */}
                     <h1>{projects[props.currentProj].title}</h1>
                 </div>
-                <div className="monitorContent">
+                <div className="monitor-content">
                     {/* <SvgLogo /> */}
                     {projects[props.currentProj].component}
                 </div>
-                <div className="monitorInfo">
-                    {props.currentProj < 4 &&
+                <div className="monitor-info">
+                    {props.currentProj < props.maxIndexOfProj &&
                     <div>
                         <a href={projects[props.currentProj].link_to} target="_blank">Live Example</a> &nbsp;
                         <a href={projects[props.currentProj].link_code} target="_blank">Code</a> <br />

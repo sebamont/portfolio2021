@@ -30,6 +30,7 @@ import {Contact} from './components/pages/contact/contact';
 import {NotFound} from './components/pages/notFound/notFound';
 
 function App() {
+  const maxIndexOfProj = 4; // current N° of projs = 5 (so index is -1)
   const [proj, setProj] = useState(0)
   const [english, setEnglish] = useLocalStorage("english", true);
 
@@ -40,7 +41,7 @@ function App() {
   
   const handleNextProj = (e) => {
     e.preventDefault();
-    if (proj < 4){ //changing for the # of projects i have defined inside monitor.js
+    if (proj < maxIndexOfProj){ 
       let nextProj = proj +1;
       setProj(nextProj);
     }
@@ -65,8 +66,8 @@ function App() {
               <Main english={english}/>
           </Route>
           <Route exact path="/projects">
-              <Monitor currentProj={proj} english={english}/>
-              <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj} currentProj={proj}/>
+              <Monitor currentProj={proj} english={english} maxIndexOfProj={maxIndexOfProj}/>
+              <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj} currentProj={proj} maxIndexOfProj={maxIndexOfProj}/>
           </Route>
           <Route exact path="/contact">
               <Contact english={english}/>

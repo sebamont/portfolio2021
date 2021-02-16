@@ -35,18 +35,18 @@
         padding-top: 30px;
     }
 }
-.exitButtons, .nextProjButton, .prevProjButton{
+.exit-buttons, .next-proj-button, .prev-proj-button{
     fill: #502a66;
 }
 
-.exitButtons:hover{
+.exit-buttons:hover{
     cursor: pointer;
     fill:black;
 }
 
 
 
-.nextProjButton:hover, .prevProjButton:hover{
+.next-proj-button:hover, .prev-proj-button:hover{
     cursor: pointer;
     fill:black;
     height: 14%;
