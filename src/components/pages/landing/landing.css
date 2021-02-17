@@ -272,3 +272,19 @@
     color:rgb(116, 116, 116);
     text-decoration: none;
 }
+
+/* Redefine colors for browsers where OS is set to dark mode */
+@media (prefers-color-scheme: dark){
+    .left-column a {
+        color: #80567C;
+    }
+    
+    .left-column a:hover{
+        background-color: #80567C;
+    }
+
+    .skills div div {
+        background-color: #80567C;
+        
+    }
+}

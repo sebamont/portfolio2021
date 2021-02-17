@@ -40,18 +40,20 @@ export function Main(props){
                     <h3 className="arcade-font">{props.english ? "Skills" : "Habilidades"}</h3>
                     <p>{props.english ? "the more opaque the better." : "mientras más opaco mejor."} <small><em>{props.english ? "*according to my subjectivity" : "*según mi subjetividad"}</em>    </small>  </p>
                     <div>
-                        <div id="communication-icon"><i className="far fa-comment" ></i><span> {props.english ? "Communication" : "Comunicación"}</span> </div>
-                        <div id="english-icon"><i className="fas fa-globe-americas"></i><span>{props.english ? "English" : "Inglés"}</span>   </div>
-                        <div id="teamwork-icon"><i className="fas fa-users" ></i><span> Teamwork</span></div>
-                        <div id="css-icon"><i className="devicon-css3-plain" ></i><span> CSS</span></div>
-                        <div id="html-icon"><i className="devicon-html5-plain" ></i><span> HTML</span></div>
-                        <div id="bootstrap-icon"><i className="devicon-bootstrap-plain" ></i><span> Bootstrap</span></div>
-                        <div id="django-icon"><i className="devicon-django-plain" ></i><span> Django</span></div>
-                        <div id="react-icon"><i className="devicon-react-original" ></i><span> React</span> </div>
-                        <div id="git-icon"><i className="devicon-git-plain" ></i><span>  git</span></div>
-                        <div id="gamedev-icon"><i className="fas fa-gamepad"></i><span>Game Dev</span>   </div>
-                        <div id="coffee-icon"><i className="fas fa-coffee" ></i><span><span className="tachado">{props.english ? "Coffee" : "Café"}</span> {props.english ? "Tea" : "Té"}</span></div>
-                        <div id="uxui-icon"><i className="devicon-sketch-line"></i><span>UX/UI</span>   </div>
+                        <SkillCard divId="communication-icon" iconClasses="far fa-comment" skillName={props.english ? "Communication" : "Comunicación"} />
+                        <SkillCard divId="english-icon" iconClasses="fas fa-globe-americas" skillName={props.english ? "English" : "Inglés"} />
+                        <SkillCard divId="teamwork-icon" iconClasses="fas fa-users" skillName="Teamwork" />
+                        <SkillCard divId="css-icon" iconClasses="devicon-css3-plain" skillName="CSS" />
+                        <SkillCard divId="html-icon" iconClasses="devicon-html5-plain" skillName="HTML" />
+                        <SkillCard divId="bootstrap-icon" iconClasses="devicon-bootstrap-plain" skillName="Bootstrap" />
+                        <SkillCard divId="django-icon" iconClasses="devicon-django-plain" skillName="Django" />
+                        <SkillCard divId="react-icon" iconClasses="devicon-react-original" skillName="React" />
+                        <SkillCard divId="git-icon" iconClasses="devicon-git-plain" skillName="git" />
+                        <SkillCard divId="gamedev-icon" iconClasses="fas fa-gamepad" skillName="Game Dev" />
+                        <SkillCard divId="coffee-icon" iconClasses="fas fa-coffee" skillName="" >
+                            <span><span className="tachado">{props.english ? "Coffee" : "Café"}</span> {props.english ? "Tea" : "Té"}</span>
+                        </SkillCard>
+                        <SkillCard divId="uxui-icon" iconClasses="fas fa-users" skillName="UX/UI" />
                     </div>
 
                 </div>
@@ -62,5 +64,15 @@ export function Main(props){
             </section>
             
         </motion.div>
+    )
+}
+
+function SkillCard(props){
+    return(
+        <div id={props.divId}>
+            <i className={props.iconClasses}></i> 
+            <span>{props.skillName}</span>
+            {props.children}
+        </div>
     )
 }
