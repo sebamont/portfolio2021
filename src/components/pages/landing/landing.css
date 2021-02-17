@@ -54,11 +54,11 @@
     padding-left: 3px;
     padding-right: 3px;
     text-decoration: none;
-    color: #80567C !important;
+    color: #80567C;
 }
 
 .left-column a:hover{
-    background-color: #80567C !important;
+    background-color: #80567C;
     border-radius: 5px;
     color:white;
 }
@@ -273,18 +273,3 @@
     text-decoration: none;
 }
 
-/* Redefine colors for browsers where OS is set to dark mode */
-/* @media (prefers-color-scheme: dark){
-    .left-column a {
-        color: #80567C;
-    }
-    
-    .left-column a:hover{
-        background-color: #80567C;
-    }
-
-    .skills div div {
-        background-color: #80567C;
-        
-    }
-} */
