@@ -54,11 +54,11 @@
     padding-left: 3px;
     padding-right: 3px;
     text-decoration: none;
-    color: #80567C;
+    color: #80567C !important;
 }
 
 .left-column a:hover{
-    background-color: #80567C;
+    background-color: #80567C !important;
     border-radius: 5px;
     color:white;
 }
@@ -169,7 +169,7 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
-    background-color: #502a66;
+    background-color: #502a66 !important;
     border-radius: 20px;
     box-shadow: 3px 8px 1px rgba(0,0, 0, 0.4);
 }
@@ -274,7 +274,7 @@
 }
 
 /* Redefine colors for browsers where OS is set to dark mode */
-@media (prefers-color-scheme: dark){
+/* @media (prefers-color-scheme: dark){
     .left-column a {
         color: #80567C;
     }
@@ -287,4 +287,4 @@
         background-color: #80567C;
         
     }
-}
+} */
