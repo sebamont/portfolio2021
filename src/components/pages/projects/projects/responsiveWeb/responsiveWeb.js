@@ -5,7 +5,7 @@ import './responsiveWeb.css'
 export function ResponsiveWeb(){
     return(
         <div id="responsiveWeb-container">
-            <img src={rotondaResponsive} />
+            <img src={rotondaResponsive} alt="Corporative webdev with React example"/>
         </div>
     )
 }

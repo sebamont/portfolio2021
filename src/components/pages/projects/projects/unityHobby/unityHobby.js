@@ -5,7 +5,7 @@ import './unityHobby.css';
 export function UnityHobby(){
     return(
         <div id="unityHobby-container">
-            <img src={unityProject} />
+            <img src={unityProject} alt="Unity project example GIF"/>
         </div>
     )
 }

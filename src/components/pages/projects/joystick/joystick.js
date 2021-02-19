@@ -12,7 +12,7 @@ export function Joystick(props){
                 
             </div>
             <div id="joystick">
-                <svg width="303" height="128" viewBox="0 0 303 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="303" height="128" viewBox="0 0 303 128" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Svg drawed Joystick">
                 <g filter="url(#filter0_i)">
                 <ellipse cx="53.9703" cy="39.7096" rx="44.5677" ry="39.7096" fill="#686868"/>
                 <g filter="url(#filter1_d)">

@@ -5,7 +5,7 @@ import './apiRest.css';
 export function APIRest(){
     return(
         <div id="apiRest-container">
-            <img src={twitchAPIRest} />
+            <img src={twitchAPIRest} alt="Twitch API Consuming example" />
         </div>
     )
 }

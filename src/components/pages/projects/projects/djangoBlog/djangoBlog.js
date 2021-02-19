@@ -5,7 +5,7 @@ import './djangoBlog.css';
 export function DjangoBlog(){
     return(
         <div id="djangoBlog-container">
-            <img src={djangoBlog} />
+            <img src={djangoBlog} alt="Django blog example"/>
         </div>
     )
 }
