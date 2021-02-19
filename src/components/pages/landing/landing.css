@@ -163,7 +163,7 @@
 
 .skills div div {
     margin: 0px 2px 20px 2px;
-    width: 15%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -172,6 +172,11 @@
     background-color: #502a66 !important;
     border-radius: 20px;
     box-shadow: 3px 8px 1px rgba(0,0, 0, 0.4);
+}
+@media(min-width:1000px){
+    .skills div div {
+        width: 15%;
+    }
 }
 
 .skills i{

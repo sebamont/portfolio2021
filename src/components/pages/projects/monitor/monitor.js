@@ -51,11 +51,9 @@ export function Monitor (props){
         <motion.div id="monitor-wrapper" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <div id="monitor">
                 <div className="monitor-title">
-                    {/* <h1>SVG + CSS Animations</h1> */}
                     <h1>{projects[props.currentProj].title}</h1>
                 </div>
                 <div className="monitor-content">
-                    {/* <SvgLogo /> */}
                     {projects[props.currentProj].component}
                 </div>
                 <div className="monitor-info">
@@ -65,7 +63,7 @@ export function Monitor (props){
                         <a href={projects[props.currentProj].link_code} target="_blank">Code</a> <br />
                     </div>
                     }
-                        <span>{props.english ? "Press joystick left/rigth buttons for prev/next, or any other button to exit" : "Use las flechas horiztonales para el sig/anterior, o cualquier botón para salir"}</span>
+                        <span>{props.english ? "Press joystick left/rigth buttons for prev/next, or any other button to exit" : "Use las flechas horizontales para el sig/anterior, o cualquier botón para salir"}</span>
                 </div>
             </div>
         </motion.div>
