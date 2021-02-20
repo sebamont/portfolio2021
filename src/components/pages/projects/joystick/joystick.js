@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import {pageTransition, PageTransitionDurations}from '../../../pageTransition/pageTransition';
 import './joystick.css';
 
+//import contexts
+import {ProjectContext} from '../../../../context/ProjectsContext';
+
 export function Joystick(props){
+    const {maxIndexOfProj, currentProj, handleNextProj, handlePrevProj} = useContext(ProjectContext);
  
     return(
         <motion.div id="joystick-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
@@ -38,8 +42,8 @@ export function Joystick(props){
                 <g filter="url(#filter7_di)">
                 <Link to="/contact"><path d="M179.613 86.1944C170.877 87.0364 162.274 84.4928 160.397 80.5132C158.521 76.5335 164.082 72.6248 172.819 71.7829C181.555 70.9409 190.158 73.4845 192.034 77.4642C193.911 81.4438 188.349 85.3525 179.613 86.1944Z" fill="#7C7F89" id="start-button" className="exit-buttons"/></Link>
                 </g>
-                <rect x="71" y="55" width="19" height="19" fill="#777777" className={props.currentProj < props.maxIndexOfProj ? "next-proj-button" : ""} onClick={props.handleNextProj}/>
-                <rect x="35" y="55" width="18" height="19" fill="#777777" className={props.currentProj > 0 ? "prev-proj-button" : ""} onClick={props.handlePrevProj}/>
+                <rect x="71" y="55" width="19" height="19" fill="#777777" className={currentProj < maxIndexOfProj ? "next-proj-button" : ""} onClick={handleNextProj}/>
+                <rect x="35" y="55" width="18" height="19" fill="#777777" className={currentProj > 0 ? "prev-proj-button" : ""} onClick={handlePrevProj}/>
                 <rect x="52" y="38" width="20" height="36" fill="#777777"/>
                 <rect x="52" y="69" width="20" height="25" fill="#777777"/>
                 

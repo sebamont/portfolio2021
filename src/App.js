@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   useLocation
@@ -12,9 +11,9 @@ import {AnimatePresence} from 'framer-motion';
 import './App.css';
 
 //Overall components
-import {useLocalStorage} from './functions/useLocalStorage';
 import {NavBar} from './components/navBar/navbar';
-
+import {GlobalContextProvider} from './context/GlobalContext';
+import {ProjectContextProvider} from './context/ProjectsContext';
 
 //Landing page components:
 import {Main} from './components/pages/landing/landing';
@@ -30,55 +29,32 @@ import {Contact} from './components/pages/contact/contact';
 import {NotFound} from './components/pages/notFound/notFound';
 
 function App() {
-  const maxIndexOfProj = 4; // current N° of projs = 5 (so index is -1)
-  const [proj, setProj] = useState(0)
-  const [english, setEnglish] = useLocalStorage("english", true);
-
-  const handleChangeLanguage = (e) => {
-    e.preventDefault();
-    setEnglish(!english);
-  }
-  
-  const handleNextProj = (e) => {
-    e.preventDefault();
-    if (proj < maxIndexOfProj){ 
-      let nextProj = proj +1;
-      setProj(nextProj);
-    }
-  }
-  const handlePrevProj = (e) => {
-    e.preventDefault();
-    if (proj > 0){
-      let prevProj = proj -1;
-      setProj(prevProj);
-    }
-    
-  }
-
   const location = useLocation();
   return (
-    <div>
-      <NavBar handleChangeLanguage={handleChangeLanguage} english={english}/>
+    <GlobalContextProvider>
+      <NavBar/>
       <AnimatePresence exitBeforeEnter>
         
         <Switch location={location} key={location.pathname}>
           <Route exact path="/">
-              <Main english={english}/>
+              <Main/>
           </Route>
           <Route exact path="/projects">
-              <Monitor currentProj={proj} english={english} maxIndexOfProj={maxIndexOfProj}/>
-              <Joystick handlePrevProj={handlePrevProj} handleNextProj={handleNextProj} currentProj={proj} maxIndexOfProj={maxIndexOfProj}/>
+            <ProjectContextProvider>
+              <Monitor/>
+              <Joystick/>
+            </ProjectContextProvider>
           </Route>
           <Route exact path="/contact">
-              <Contact english={english}/>
+              <Contact />
           </Route>
           <Route path="*">
-              <NotFound english={english}/>
+              <NotFound/>
           </Route>
         </Switch>
         
       </AnimatePresence>
-      </div>
+    </GlobalContextProvider>
   );
 }
 
