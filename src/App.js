@@ -12,6 +12,8 @@ import './App.css';
 
 //Overall components
 import {NavBar} from './components/navBar/navbar';
+
+//Contexts
 import {GlobalContextProvider} from './context/GlobalContext';
 import {ProjectContextProvider} from './context/ProjectsContext';
 

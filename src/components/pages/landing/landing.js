@@ -71,9 +71,13 @@ export function Main(){
     )
 }
 
+
+//position.y > 9000 ? props.divID will asign the id to the card so it will run the animation once we scrolled down 1000px (will show the animation perfectly on desktop)
+//TODO: how to make that for mobile?
 function SkillCard(props){
+    const {position} = useScrollData();
     return(
-        <div id={props.divId}>
+        <div id={position.y>900? props.divId : ""}> 
             <i className={props.iconClasses}></i> 
             <span>{props.skillName}</span>
             {props.children}
