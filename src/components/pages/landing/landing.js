@@ -49,9 +49,9 @@ export function Main(){
                         <SkillCard divId="teamwork-icon" iconClasses="fas fa-users" skillName="Teamwork" />
                         <SkillCard divId="css-icon" iconClasses="devicon-css3-plain" skillName="CSS" />
                         <SkillCard divId="html-icon" iconClasses="devicon-html5-plain" skillName="HTML" />
+                        <SkillCard divId="react-icon" iconClasses="devicon-react-original" skillName="React" />
                         <SkillCard divId="bootstrap-icon" iconClasses="devicon-bootstrap-plain" skillName="Bootstrap" />
                         <SkillCard divId="django-icon" iconClasses="devicon-django-plain" skillName="Django" />
-                        <SkillCard divId="react-icon" iconClasses="devicon-react-original" skillName="React" />
                         <SkillCard divId="git-icon" iconClasses="devicon-git-plain" skillName="git" />
                         <SkillCard divId="gamedev-icon" iconClasses="fas fa-gamepad" skillName="Game Dev" />
                         <SkillCard divId="coffee-icon" iconClasses="fas fa-coffee" skillName="" >

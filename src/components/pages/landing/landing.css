@@ -189,24 +189,36 @@
     color: white;
 }
 
-#django-icon{
-    --buttonOpacity: 0.69;
+#communication-icon{
+    --buttonOpacity: 0.9;
     animation: buttonLike 2.5s ease forwards;
 }
-#react-icon{
-    --buttonOpacity: 0.65;
+#english-icon{
+    --buttonOpacity: 0.9;
     animation: buttonLike 2.5s ease forwards;
 }
-#html-icon{
-    --buttonOpacity: 0.74;
+#teamwork-icon{
+    --buttonOpacity: 0.85;
     animation: buttonLike 2.5s ease forwards;
 }
 #css-icon{
     --buttonOpacity: 0.8;
     animation: buttonLike 2.5s ease forwards;
 }
+#html-icon{
+    --buttonOpacity: 0.76;
+    animation: buttonLike 2.5s ease forwards;
+}
+#react-icon{
+    --buttonOpacity: 0.73;
+    animation: buttonLike 2.5s ease forwards;
+}
 #bootstrap-icon{
     --buttonOpacity: 0.7;
+    animation: buttonLike 2.5s ease forwards;
+}
+#django-icon{
+    --buttonOpacity: 0.69;
     animation: buttonLike 2.5s ease forwards;
 }
 #git-icon{
@@ -215,18 +227,6 @@
 }
 #coffee-icon{
     --buttonOpacity: 0.3;
-    animation: buttonLike 2.5s ease forwards;
-}
-#teamwork-icon{
-    --buttonOpacity: 0.85;
-    animation: buttonLike 2.5s ease forwards;
-}
-#communication-icon{
-    --buttonOpacity: 0.9;
-    animation: buttonLike 2.5s ease forwards;
-}
-#english-icon{
-    --buttonOpacity: 0.9;
     animation: buttonLike 2.5s ease forwards;
 }
 #gamedev-icon{
