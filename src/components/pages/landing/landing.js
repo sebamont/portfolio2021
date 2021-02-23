@@ -9,6 +9,11 @@ import {motion} from 'framer-motion';
 import {pageTransition, PageTransitionDurations} from '../../pageTransition/pageTransition';
 import {Link} from 'react-router-dom';
 import Avatar from './pixelAvatar2.png'
+
+//Importing Statics
+import GhostSvg from '../../../static/pacman-ghost.svg';
+import PacmanSVG from '../../../static/pacman.svg';
+
 import './landing.css';
 export function Main(){
     const {position} = useScrollData();
@@ -16,9 +21,10 @@ export function Main(){
 
     return(
         <motion.div className="main-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
-            
-
             <header className="header-container">
+                <img id="pacman" src={PacmanSVG} />
+                <img id="pacman-ghost" src={GhostSvg}/>
+                <img id="pacman-ghost2" src={GhostSvg}/>
                 <div className="left-column">
                     <h1><span className="arcade-font">{english ? "Hello!" : "Hola!"}</span> <br />{english ? "I'm Sebastian Montagna" : "Soy Sebastian Montagna"} </h1>
                     <h3>{english ? "And I am looking for my" : "Y estoy buscando mi"} <u>{english ? "first IT Job" : "primer trabajo IT"}</u>. <br />{english ? "Developer by election, accountant by profession, gamer just because." : "Desarrollador por elección, contador por profesión, gamer porque si."}</h3>
@@ -27,10 +33,10 @@ export function Main(){
                 <div className="right-column">
                     <img className="header-avatar" src={Avatar} alt="Pixelated Sebastian Montagna"/>
                 </div>
-            </header>
             <svg id="arrow-down" alt="Purple down indicator" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg" style={{opacity:`${position.y > 400 ? "0" : "1"}`}}>
                 <path d="M39 33L0.0288572 0.75L77.9711 0.750007L39 33Z" fill="#80567C"/>
             </svg>
+            </header>
             <section className="skills-container">
                 <div className="about-me">
                     <h3 className="arcade-font">{english ? "About me" : "Sobre mi"}</h3>
