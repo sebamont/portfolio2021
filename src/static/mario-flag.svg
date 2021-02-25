@@ -1,0 +1,519 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 93">
+    <path stroke="#878487" d="M2 1h113M1 2h1M115 2h1M1 3h1M115 3h1M1 4h1M115 4h1M1 5h1M115 5h1M1 6h1M115 6h1M1 7h1M108 7h7M1 8h1M108 8h1M1 9h1M108 9h1M1 10h1M108 10h1M1 11h1M108 11h1M1 12h1M100 12h8M1 13h1M100 13h1M1 14h1M100 14h1M1 15h1M100 15h1M1 16h1M100 16h1M1 17h1M100 17h1M1 18h1M93 18h7M1 19h1M93 19h1M1 20h1M93 20h1M1 21h1M93 21h1M1 22h1M93 22h1M1 23h1M93 23h1M1 24h1M86 24h7M1 25h1M86 25h1M1 26h1M86 26h1M1 27h1M86 27h1M1 28h1M86 28h1M1 29h1M79 29h7M1 30h1M79 30h1M1 31h1M79 31h1M1 32h1M79 32h1M1 33h1M79 33h1M1 34h1M79 34h1M1 35h1M72 35h7M1 36h1M72 36h1M1 37h1M72 37h1M1 38h1M72 38h1M1 39h1M72 39h1M1 40h1M72 40h1M1 41h1M65 41h7M1 42h1M65 42h1M1 43h1M65 43h1M1 44h1M65 44h1M1 45h1M65 45h1M1 46h1M57 46h8M1 47h1M57 47h1M1 48h1M57 48h1M1 49h1M57 49h1M1 50h1M57 50h1M1 51h1M57 51h1M1 52h1M51 52h6M1 53h1M51 53h1M1 54h1M51 54h1M1 55h1M51 55h1M1 56h1M51 56h1M1 57h1M51 57h1M1 58h1M43 58h8M1 59h1M43 59h1M1 60h1M43 60h1M1 61h1M43 61h1M1 62h1M43 62h1M1 63h1M43 63h1M1 64h1M36 64h7M1 65h1M36 65h1M1 66h1M36 66h1M1 67h1M36 67h1M1 68h1M36 68h1M1 69h1M29 69h7M1 70h1M29 70h1M1 71h1M29 71h1M1 72h1M29 72h1M1 73h1M29 73h1M1 74h1M29 74h1M1 75h1M22 75h7M1 76h1M22 76h1M1 77h1M22 77h1M1 78h1M22 78h1M1 79h1M22 79h1M1 80h1M22 80h1M1 81h1M15 81h7M1 82h1M15 82h1M1 83h1M15 83h1M1 84h1M15 84h1M1 85h1M15 85h1M1 86h1M8 86h7M1 87h1M8 87h1M1 88h1M8 88h1M1 89h1M8 89h1M1 90h1M8 90h1M1 91h1M8 91h1M2 92h6" />
+    <path stroke="#fcfef9" d="M2 2h1M80 28h1" />
+    <path stroke="#fefdfd" d="M3 2h1M51 5h1M64 13h1M25 16h1M64 17h1M24 18h1M63 18h1M87 19h1M20 20h1M78 28h1M47 45h1M20 77h1" />
+    <path stroke="#fefefb" d="M4 2h1M96 12h1M60 14h1M98 14h1M75 33h1M75 34h1" />
+    <path stroke="#fffefd" d="M5 2h2M3 3h1M14 3h1M108 3h1M64 18h1M91 18h1M80 19h2M88 20h1M83 21h1M86 21h1M83 24h1M47 26h1M83 26h1M73 29h1M76 30h1M64 40h1M42 57h1M26 72h1" />
+    <path stroke="#fcfefc" d="M7 2h1M113 3h1M24 19h1M20 24h1M46 27h1M33 30h1M35 33h1M31 47h4M36 47h1M41 47h1M56 51h1M46 57h1M6 88h1" />
+    <path stroke="#fcfcfd" d="M8 2h1M99 13h1M23 15h1M46 28h1M60 44h1M28 72h1" />
+    <path stroke="#fefcfe" d="M9 2h1M17 5h2M13 6h1M13 7h1M105 9h1M47 21h1M43 22h1M21 23h1M20 28h1" />
+    <path stroke="#fcfefd" d="M10 2h1M52 10h1M62 17h1M61 18h1M47 28h1M49 44h1M46 47h1M15 80h1" />
+    <path stroke="#fdfefe" d="M11 2h1M56 3h1M101 11h1M24 16h1M62 16h1M40 17h1M47 19h1M61 19h1M83 19h1M61 20h1M25 21h1M42 21h1M61 21h1M61 22h1M61 23h1M61 24h1M61 25h1M61 26h1M61 27h1M80 27h1M61 28h1M61 29h1M75 29h1M61 30h1M31 31h1M61 31h1M61 32h1M61 33h1M61 34h1M61 35h1M61 36h1M61 37h1M61 38h1M61 39h1M61 40h1" />
+    <path stroke="#fefeff" d="M12 2h99M8 3h1M105 3h1M16 4h1M103 4h1M56 5h1M106 7h1M61 12h1M4 15h1M6 15h1M4 16h1M39 18h1M83 18h1M80 25h2M70 34h1M68 37h1M62 42h1M56 47h1M47 48h1M56 48h1M50 49h1M49 52h1M49 53h1M49 54h1M49 55h1M36 63h1M22 72h1M13 82h1" />
+    <path stroke="#fefefe" d="M111 2h1M18 3h1M106 3h1M50 4h1M57 4h1M58 10h1M5 11h1M7 11h1M10 11h1M61 11h1M98 11h1M5 13h1M65 13h1M6 16h1M6 17h1M24 17h1M60 18h1M19 19h1M60 19h1M86 19h1M60 20h1M27 21h1M60 21h1M60 22h1M60 23h1M60 24h1M60 25h1M60 26h1M60 27h1M79 27h1M60 28h1M60 29h1M76 29h1M60 30h1M60 31h1M33 32h1M60 32h1M75 32h1M33 33h1M60 33h1M60 34h1M69 34h1M60 35h1M67 35h1M70 35h1M60 36h1M60 37h1M60 38h1M67 38h1M60 39h1M60 40h1M62 45h1M48 46h1M42 58h1M42 59h1M28 67h1M27 70h1M23 72h1M20 75h1M13 81h1M7 86h1M3 91h1" />
+    <path stroke="#fdfeff" d="M112 2h1M12 4h1M46 21h1M90 21h1M48 27h1M75 28h1M33 34h1M74 34h1M61 42h1M49 43h1" />
+    <path stroke="#fbfefd" d="M113 2h1M46 43h1" />
+    <path stroke="#eaecff" d="M114 2h1" />
+    <path stroke="#fdfefc" d="M2 3h1M105 5h1M55 11h2M63 11h1M63 12h1M99 14h1M39 17h1M23 22h1M41 22h1M43 57h1M35 68h1M2 86h1M3 88h1M4 91h1" />
+    <path stroke="#fefffe" d="M4 3h1M7 3h1M10 3h1M13 3h1M112 3h1M108 5h1M103 9h1M103 10h1M6 14h1M65 14h1M65 15h1M65 17h1M95 17h1M5 18h1M84 18h1M17 19h1M17 20h1M80 20h1M83 20h2M17 21h1M80 21h1M17 22h1M17 23h1M17 24h1M17 25h1M80 26h1M48 28h1M74 32h1M59 42h1M60 43h1M50 46h1M19 48h1M51 49h1M27 66h2M31 66h1M30 67h2M12 82h1M4 86h1" />
+    <path stroke="#ffffff" d="M5 3h2M20 3h30M58 3h46M107 3h1M5 4h7M58 4h45M5 5h7M16 5h1M20 5h30M58 5h45M5 6h7M58 6h45M5 7h7M54 7h1M58 7h45M5 8h7M58 8h45M5 9h7M58 9h45M5 10h7M61 10h35M97 10h5M66 11h29M66 12h29M66 13h29M66 14h30M66 15h30M66 16h29M66 17h29M66 18h14M88 18h1M18 19h1M66 19h14M18 20h1M66 20h14M18 21h1M66 21h14M89 21h1M18 22h1M66 22h14M18 23h1M66 23h14M18 24h1M66 24h14M18 25h1M66 25h14M18 26h1M66 26h7M66 27h7M66 28h7M74 28h1M66 29h7M66 30h7M66 31h7M66 32h7M69 33h2M5 41h2M62 41h1M5 42h14M51 42h7M5 43h14M51 43h7M5 44h15M51 44h6M5 45h14M50 45h7M5 46h14M51 46h6M5 47h14M51 47h5M5 48h14M51 48h1M53 48h1M55 48h1M5 49h45M5 50h45M5 51h45M5 52h44M5 53h44M5 54h44M5 55h44M5 56h37M44 56h1M5 57h37M5 58h37M5 59h37M5 60h37M5 61h37M5 62h37M5 63h31M5 64h22M5 65h22M32 65h1M5 66h22M33 66h1M5 67h22M5 68h22M5 69h22M5 70h22M5 71h15M22 71h3M5 72h14M5 73h14M5 74h15M5 75h15M5 76h15M5 77h15M5 78h15M5 79h7M18 79h1M5 80h7M5 81h7M5 82h7M5 83h7M5 84h7M5 85h7" />
+    <path stroke="#fffeff" d="M9 3h1M50 3h1M104 3h1M109 3h2M103 5h1M53 6h1M59 10h1M65 11h1M65 12h1M95 13h1M97 13h1M97 15h1M90 18h1M82 19h1M19 20h1M84 21h1M89 22h1M19 23h1M19 24h1M84 24h1M82 25h1M81 27h1M73 30h1M68 38h1M69 39h1M61 41h1M19 42h1M50 42h1M48 43h1M19 45h1M49 45h1M50 48h1M55 49h1M42 56h2M48 56h1M27 64h1M32 64h1M27 67h1M25 73h1M12 85h1M5 86h1" />
+    <path stroke="#feffff" d="M11 3h1M17 3h1M55 3h1M4 4h1M4 5h1M4 6h1M4 7h1M12 7h1M4 8h1M4 9h1M4 10h1M4 11h1M4 13h1M4 14h2M4 18h1M4 19h1M90 19h1M4 20h1M91 20h1M4 21h1M4 22h1M4 23h1M4 24h1M80 24h1M4 25h1M4 26h1M74 26h1M4 27h1M4 28h1M4 29h1M4 30h1M4 31h1M4 32h1M4 33h1M72 33h1M4 34h1M4 35h1M4 36h1M4 37h1M4 38h1M4 39h1M4 40h1M4 41h1M4 42h1M58 42h1M63 42h1M4 43h1M19 43h1M50 43h1M59 43h1M4 44h1M50 44h1M4 45h1M4 46h1M4 47h1M4 48h1M52 48h1M4 49h1M4 50h1M4 51h1M4 52h1M4 53h1M4 54h1M4 55h1M4 56h1M4 57h1M4 58h1M4 59h1M4 60h1M4 61h1M4 62h1M4 63h1M4 64h1M4 65h1M4 66h1M32 66h1M4 67h1M4 68h1M4 69h1M4 70h1M4 71h1M20 71h2M4 72h1M4 73h1M4 74h1M4 75h1M4 76h1M4 77h1M4 78h1M4 79h1M4 80h1M4 81h1M4 82h1M4 83h1M12 83h1M4 84h1M12 84h1M4 85h1" />
+    <path stroke="#fdffff" d="M12 3h1M15 5h1M4 12h1M4 17h1M80 22h1" />
+    <path stroke="#fffbff" d="M15 3h1M50 5h1M55 7h1M52 9h1M46 46h1" />
+    <path stroke="#fffcff" d="M16 3h1M110 4h1M53 5h1M56 7h1M54 10h1M64 11h1M27 14h1M5 15h1M23 21h1M91 21h1M48 24h1M48 26h1M18 28h1M32 34h1M21 48h1M24 48h1M53 50h1" />
+    <path stroke="#fffdfe" d="M19 3h1M109 4h1M19 5h1M57 5h1M106 5h1M62 14h1M63 15h1M63 16h1M26 21h1M88 22h1M19 26h1M76 31h1M76 32h1M13 79h1M19 79h1M13 80h1" />
+    <path stroke="#fefffc" d="M51 3h1M110 5h1M12 6h1M60 13h1M96 16h1M87 18h1M89 18h1M88 19h1M85 20h1M82 23h1M76 27h1M75 30h1M65 34h2M65 35h1M65 36h1M66 37h1M61 43h2M27 65h1" />
+    <path stroke="#fdfbff" d="M52 3h1" />
+    <path stroke="#fffaff" d="M53 3h1M54 11h1" />
+    <path stroke="#f6fffb" d="M54 3h1" />
+    <path stroke="#fdfffa" d="M57 3h1M34 65h1M20 72h1" />
+    <path stroke="#fffefc" d="M111 3h1M104 4h1M98 15h1M46 26h1M84 27h1M73 28h1M77 28h1M51 50h1M31 64h1M23 73h1M3 86h1" />
+    <path stroke="#eaeefd" d="M114 3h1" />
+    <path stroke="#fdfefd" d="M2 4h1M15 4h1M113 4h1M2 5h1M2 6h1M2 7h1M2 8h1M2 9h1M2 10h1M2 11h1M2 12h1M2 13h1M2 14h1M2 15h1M2 16h1M2 17h1M2 18h1M2 19h1M84 19h1M2 20h1M2 21h1M2 22h1M26 22h1M2 23h1M2 24h1M2 25h1M2 26h1M2 27h1M2 28h1M2 29h1M2 30h1M2 31h1M75 31h1M2 32h1M2 33h1M74 33h1M2 34h1M2 35h1M2 36h1M2 37h1M2 38h1M2 39h1M2 40h1M2 41h1M7 41h1M2 42h1M2 43h1M2 44h1M2 45h1M2 46h1M2 47h1M2 48h1M2 49h1M2 50h1M2 51h1M2 52h1M2 53h1M2 54h1M2 55h1M2 56h1M2 57h1M2 58h1M2 59h1M2 60h1M2 61h1M2 62h1M2 63h1M2 64h1M2 65h1M2 66h1M2 67h1M2 68h1M2 69h1M2 70h1M2 71h1M2 72h1M2 73h1M2 74h1M2 75h1M2 76h1M2 77h1M2 78h1M2 79h1M2 80h1M2 81h1M2 82h1M2 83h1M2 84h1M13 84h1M2 85h1" />
+    <path stroke="#fffefe" d="M3 4h1M112 4h1M3 5h1M3 6h1M3 7h1M3 8h1M105 8h1M3 9h1M3 10h1M3 11h1M11 11h1M3 12h1M3 13h1M3 14h1M97 14h1M3 15h1M3 16h1M97 16h1M3 17h1M97 17h1M3 18h1M3 19h1M63 19h1M91 19h1M3 20h1M46 20h1M63 20h1M3 21h1M19 21h1M63 21h1M85 21h1M3 22h1M19 22h1M63 22h1M83 22h1M87 22h1M3 23h1M63 23h1M3 24h1M63 24h1M3 25h1M63 25h1M3 26h1M63 26h1M3 27h1M63 27h1M73 27h1M3 28h1M63 28h1M82 28h1M3 29h1M63 29h1M3 30h1M63 30h1M3 31h1M63 31h1M73 31h1M3 32h1M63 32h1M3 33h1M63 33h1M3 34h1M63 34h1M3 35h1M63 35h1M69 35h1M3 36h1M63 36h1M68 36h1M3 37h1M63 37h1M67 37h1M3 38h1M63 38h1M3 39h1M63 39h1M3 40h1M63 40h1M3 41h1M3 42h1M3 43h1M3 44h1M3 45h1M48 45h1M61 45h1M3 46h1M3 47h1M3 48h1M22 48h2M42 48h1M3 49h1M3 50h1M3 51h1M3 52h1M3 53h1M3 54h1M3 55h1M3 56h1M47 56h1M3 57h1M3 58h1M3 59h1M3 60h1M3 61h1M3 62h1M3 63h1M3 64h1M34 64h1M3 65h1M31 65h1M3 66h1M3 67h1M33 67h1M3 68h1M3 69h1M3 70h1M3 71h1M3 72h1M25 72h1M3 73h1M21 73h1M3 74h1M20 74h1M3 75h1M3 76h1M3 77h1M3 78h1M3 79h1M3 80h1M3 81h1M3 82h1M3 83h1M3 84h1M3 85h1M6 86h1" />
+    <path stroke="#fefffd" d="M13 4h2M55 5h1M103 11h1M65 16h1M86 18h1M81 20h1M89 20h1M82 22h1M80 23h1M81 26h1M65 38h1M65 39h1M63 43h1M32 67h1M27 71h1M4 90h1" />
+    <path stroke="#fcfffc" d="M17 4h1M27 17h1M27 18h1M45 21h1" />
+    <path stroke="#fcfff9" d="M18 4h1M44 19h1M81 23h1M17 79h1" />
+    <path stroke="#fbfff7" d="M19 4h1M47 44h1" />
+    <path stroke="#fffffd" d="M20 4h30M106 4h1M55 8h1M55 10h1M95 11h1M80 18h1M64 19h1M64 20h1M82 20h1M64 21h1M64 22h1M64 23h1M64 24h1M64 25h1M64 26h1M64 27h1M64 28h1M64 29h1M64 30h1M64 31h1M64 32h1M64 33h2M68 33h1M64 34h1M64 35h1M68 35h1M64 36h1M64 37h1M64 38h1M64 39h1M58 44h1M57 45h1M28 48h14M44 48h1M54 48h1M45 56h1M33 64h1M27 72h1" />
+    <path stroke="#fafff7" d="M51 4h1" />
+    <path stroke="#fbfef9" d="M52 4h1M41 13h1" />
+    <path stroke="#fff9ff" d="M53 4h1" />
+    <path stroke="#fcfefe" d="M54 4h1M40 18h1M46 24h1M56 49h1M25 74h1" />
+    <path stroke="#fffdff" d="M55 4h1M56 10h1M27 22h1M83 23h1M19 25h1M83 25h1M73 26h1M78 27h1M82 27h2M19 28h1M59 45h2M43 48h1M48 48h2M50 50h1M28 64h2M34 66h1M34 67h1M27 68h1M27 69h1" />
+    <path stroke="#fefdff" d="M56 4h1M61 13h1M96 13h1M61 14h1M62 15h1M5 16h1M92 18h1M92 19h1M41 20h1M69 40h1M59 44h1M53 49h1M42 60h1M35 65h1M34 68h1" />
+    <path stroke="#fffffb" d="M105 4h1M108 4h1M57 6h1M84 26h1M73 33h1M62 44h1M12 79h1" />
+    <path stroke="#fdfdfa" d="M107 4h1M106 8h1M47 42h1M61 44h1" />
+    <path stroke="#fefbfe" d="M111 4h1M44 22h1M49 42h1" />
+    <path stroke="#ececfe" d="M114 4h1" />
+    <path stroke="#fffffe" d="M12 5h2M105 6h1M60 10h1M96 10h1M102 10h1M95 12h1M96 14h1M96 15h1M95 16h1M6 18h1M65 18h1M82 18h1M5 19h2M65 19h1M5 20h2M65 20h1M5 21h2M65 21h1M5 22h2M65 22h1M5 23h2M65 23h1M5 24h2M65 24h1M5 25h2M65 25h1M5 26h2M65 26h1M78 26h2M5 27h2M65 27h1M5 28h2M65 28h1M5 29h2M65 29h1M74 29h1M5 30h2M65 30h1M5 31h2M65 31h1M5 32h2M65 32h1M5 33h2M66 33h2M5 34h2M67 34h1M5 35h2M5 36h2M69 36h1M5 37h2M5 38h2M5 39h2M5 40h2M60 41h1M57 44h1M63 44h1M19 46h1M19 47h1M50 47h1M27 48h1M29 65h1M25 71h2M19 72h1M19 73h1M15 79h1" />
+    <path stroke="#fdfdff" d="M14 5h1M106 6h1M40 19h1M42 62h1" />
+    <path stroke="#f9fff9" d="M52 5h1" />
+    <path stroke="#fcffff" d="M54 5h1M5 17h1M46 48h1M16 79h1" />
+    <path stroke="#fefffb" d="M104 5h1M57 8h1M81 21h1M48 25h1M74 30h1M71 33h1M68 34h1M65 37h1" />
+    <path stroke="#fdfdfe" d="M107 5h1M99 11h2M104 11h1M61 15h1M24 20h2M47 24h1M34 32h1M68 40h1M56 50h1M51 51h1M5 87h1" />
+    <path stroke="#fefff9" d="M109 5h1M104 10h1M52 50h1" />
+    <path stroke="#fefdfe" d="M111 5h1M14 6h1M52 7h1M105 7h1M6 11h1M8 11h1M52 11h1M97 11h1M64 12h1M63 14h1M27 15h1M60 16h1M25 17h1M60 17h1M46 19h1M22 21h1M24 21h1M91 22h1M17 26h1M83 28h1M77 32h1M77 33h1M67 36h1M68 39h1M20 44h1M25 48h1M24 72h1M22 73h1M20 78h1" />
+    <path stroke="#fdfdf8" d="M112 5h1M70 38h1" />
+    <path stroke="#fdfef8" d="M113 5h1M107 6h1M32 68h1" />
+    <path stroke="#ececff" d="M114 5h1" />
+    <path stroke="#f8fdf8" d="M15 6h1M17 6h1M42 13h1M43 23h1" />
+    <path stroke="#f0fdf1" d="M16 6h1" />
+    <path stroke="#fafdfa" d="M18 6h1" />
+    <path stroke="#fbfcfb" d="M19 6h1M42 16h1M38 21h1M37 22h1" />
+    <path stroke="#fbfdf9" d="M20 6h1M22 6h1M25 6h1M27 6h2M30 6h2M33 6h1M36 6h1M38 6h2M41 6h1M44 6h4" />
+    <path stroke="#fafdf8" d="M21 6h1M23 6h2M26 6h1M29 6h1M32 6h1M34 6h2M37 6h1M40 6h1M42 6h2M48 6h1M37 19h1M41 23h1" />
+    <path stroke="#fcfdfa" d="M49 6h1M56 6h1M78 31h1" />
+    <path stroke="#f1fdef" d="M50 6h1" />
+    <path stroke="#fcfafb" d="M51 6h1" />
+    <path stroke="#fbfeff" d="M52 6h1M75 26h1" />
+    <path stroke="#f5fefd" d="M54 6h1" />
+    <path stroke="#fcfffb" d="M55 6h1M55 9h1M75 27h1M47 47h1M4 87h1M6 91h1" />
+    <path stroke="#fdfcff" d="M103 6h1M106 9h1M24 15h1M88 23h1M49 56h1" />
+    <path stroke="#fefefc" d="M104 6h1M104 8h1M45 20h1M76 26h1M17 27h1M66 35h1M66 36h1M70 36h1M59 41h1M55 51h1M4 89h1" />
+    <path stroke="#f7f9fe" d="M108 6h1" />
+    <path stroke="#fafdfe" d="M109 6h1M112 6h1M38 18h1M91 23h1M45 57h1" />
+    <path stroke="#f8fdfc" d="M110 6h1" />
+    <path stroke="#fafdff" d="M111 6h1M44 57h1" />
+    <path stroke="#f9fcfe" d="M113 6h1M87 23h1M85 27h1" />
+    <path stroke="#e9eaff" d="M114 6h1" />
+    <path stroke="#f6fdf2" d="M14 7h1" />
+    <path stroke="#93cb8a" d="M15 7h1" />
+    <path stroke="#0d9300" d="M16 7h35M16 8h35M16 9h35M16 10h35M16 11h35M16 12h7M30 12h7M44 12h7M9 13h13M31 13h6M45 13h13M9 14h13M31 14h6M45 14h13M9 15h13M31 15h6M45 15h13M9 16h13M32 16h5M45 16h13M9 17h13M32 17h5M45 17h6M52 17h6M9 18h6M32 18h5M52 18h6M11 19h1M32 19h5M52 19h6M9 20h6M32 20h5M52 20h6M9 21h6M32 21h5M52 21h6M9 22h6M31 22h6M52 22h6M9 23h6M31 23h6M52 23h6M9 24h6M23 24h21M52 24h6M9 25h6M23 25h21M52 25h6M9 26h6M23 26h21M52 26h6M9 27h6M23 27h21M52 27h6M9 28h6M23 28h6M30 28h14M52 28h6M9 29h6M23 29h6M37 29h7M52 29h6M9 30h20M37 30h21M9 31h20M37 31h21M9 32h20M37 32h21M9 33h20M37 33h21M9 34h20M37 34h21M9 35h20M37 35h21M9 36h49M9 37h49M9 38h49M9 39h49M9 40h49M23 41h21M23 42h21M23 43h21M23 44h21M23 45h21M23 46h20" />
+    <path stroke="#d9efd6" d="M51 7h1" />
+    <path stroke="#fffcfd" d="M53 7h1M48 21h1" />
+    <path stroke="#fdfdfd" d="M57 7h1M9 11h1M62 11h1M62 12h1M40 14h1M64 16h1M47 20h1M92 21h1M35 32h1M77 34h1M65 40h1M13 83h1M6 87h1" />
+    <path stroke="#fffffc" d="M103 7h1M104 9h1M105 10h1M81 18h1M73 32h1M66 38h1M67 39h1M46 56h1M12 80h1M12 81h1" />
+    <path stroke="#fefffa" d="M104 7h1M89 19h1M82 21h1M47 25h1M66 39h1M33 68h1" />
+    <path stroke="#f9f9ff" d="M107 7h1" />
+    <path stroke="#fbfffe" d="M12 8h1M73 34h1" />
+    <path stroke="#fdfafd" d="M13 8h1M13 10h1M27 13h1" />
+    <path stroke="#fafcf5" d="M14 8h1" />
+    <path stroke="#8dcb82" d="M15 8h1" />
+    <path stroke="#d7efd4" d="M51 8h1" />
+    <path stroke="#fffbfe" d="M52 8h1M22 22h1" />
+    <path stroke="#fffefb" d="M53 8h1M6 13h1M82 26h1M20 73h1M14 79h1" />
+    <path stroke="#f9fffd" d="M54 8h1" />
+    <path stroke="#fffcfe" d="M56 8h1M47 46h1M3 89h1M3 90h1" />
+    <path stroke="#fcfefa" d="M103 8h1M59 19h1M59 20h1M59 21h1M59 22h1M59 23h1M45 24h1M59 24h1M59 25h1M59 26h1M59 27h1M59 28h1M59 29h1M59 30h1M59 31h1M59 32h1M59 33h1M59 34h1M59 35h1M59 36h1M59 37h1M59 38h1M59 39h1" />
+    <path stroke="#fafcfb" d="M107 8h1M21 44h1" />
+    <path stroke="#fdfffc" d="M12 9h1M12 10h1M102 11h1M96 17h1M29 66h1M30 68h1M6 90h1" />
+    <path stroke="#fdf9fd" d="M13 9h1M38 22h1M20 25h1" />
+    <path stroke="#fafcf7" d="M14 9h1" />
+    <path stroke="#8dce85" d="M15 9h1" />
+    <path stroke="#dbedd9" d="M51 9h1" />
+    <path stroke="#fbfffa" d="M53 9h1M46 42h1" />
+    <path stroke="#f9ffff" d="M54 9h1" />
+    <path stroke="#fefdfb" d="M56 9h1M44 20h1M85 22h1M45 26h1M24 73h1M2 89h1M5 89h1" />
+    <path stroke="#fffff9" d="M57 9h1M86 20h1M30 64h1" />
+    <path stroke="#fafcfe" d="M107 9h1" />
+    <path stroke="#f7fcf6" d="M14 10h1" />
+    <path stroke="#88cf83" d="M15 10h1" />
+    <path stroke="#d8eed6" d="M51 10h1" />
+    <path stroke="#fdfff5" d="M53 10h1" />
+    <path stroke="#fefcff" d="M57 10h1M84 22h1M84 23h1M63 45h1M35 66h1" />
+    <path stroke="#fdfcfd" d="M106 10h1M21 20h1M45 28h1M35 64h1" />
+    <path stroke="#f9fcfc" d="M107 10h1" />
+    <path stroke="#fafefe" d="M12 11h1" />
+    <path stroke="#fcf9fd" d="M13 11h1" />
+    <path stroke="#f8fcf4" d="M14 11h1" />
+    <path stroke="#8bcd85" d="M15 11h1" />
+    <path stroke="#d5efd2" d="M51 11h1" />
+    <path stroke="#fcfff6" d="M53 11h1" />
+    <path stroke="#fcfcfe" d="M57 11h1" />
+    <path stroke="#f8fdfa" d="M58 11h1" />
+    <path stroke="#fef9fd" d="M59 11h1" />
+    <path stroke="#fdfffb" d="M60 11h1M81 24h1" />
+    <path stroke="#fefef9" d="M96 11h1M86 22h1M76 34h1M49 47h1M3 87h1M2 90h1" />
+    <path stroke="#fefef7" d="M105 11h1M20 79h1" />
+    <path stroke="#fbfaf8" d="M106 11h1" />
+    <path stroke="#fafbfd" d="M107 11h1" />
+    <path stroke="#fcfffe" d="M5 12h1M34 34h1" />
+    <path stroke="#fefefd" d="M6 12h1M97 12h2M63 13h1M98 13h1M64 14h1M48 22h1M81 28h1M33 31h1M69 38h1M63 41h1M28 65h1M30 65h1M29 67h1M26 73h1M13 85h1M5 90h1M5 91h1" />
+    <path stroke="#fcfcfa" d="M7 12h1M49 21h1" />
+    <path stroke="#d6ecd5" d="M8 12h1" />
+    <path stroke="#b8e1b7" d="M9 12h1" />
+    <path stroke="#b7e0b4" d="M10 12h1" />
+    <path stroke="#bbe0b6" d="M11 12h1" />
+    <path stroke="#b7e0b5" d="M12 12h1" />
+    <path stroke="#bbddb8" d="M13 12h1" />
+    <path stroke="#b7ddae" d="M14 12h1" />
+    <path stroke="#66bd60" d="M15 12h1" />
+    <path stroke="#57ae4c" d="M23 12h1" />
+    <path stroke="#51ae46" d="M24 12h1" />
+    <path stroke="#53b14a" d="M25 12h1" />
+    <path stroke="#51b34a" d="M26 12h1" />
+    <path stroke="#4eaf47" d="M27 12h1" />
+    <path stroke="#4fb045" d="M28 12h1" />
+    <path stroke="#37a72e" d="M29 12h1" />
+    <path stroke="#4fae49" d="M37 12h1" />
+    <path stroke="#4eae48" d="M38 12h1" />
+    <path stroke="#52b548" d="M39 12h1" />
+    <path stroke="#51b147" d="M40 12h1" />
+    <path stroke="#51b247" d="M41 12h1" />
+    <path stroke="#4fae46" d="M42 12h1" />
+    <path stroke="#40a738" d="M43 12h1" />
+    <path stroke="#a0d49c" d="M51 12h1" />
+    <path stroke="#bbdeb8" d="M52 12h1" />
+    <path stroke="#b5e0b3" d="M53 12h1" />
+    <path stroke="#b9dfb7" d="M54 12h1" />
+    <path stroke="#b7e1b5" d="M55 12h1" />
+    <path stroke="#b7e1b4" d="M56 12h1" />
+    <path stroke="#c1e4c0" d="M57 12h1" />
+    <path stroke="#dff1e1" d="M58 12h1" />
+    <path stroke="#fcfbfb" d="M59 12h1M45 23h1" />
+    <path stroke="#fdfefa" d="M60 12h1M99 15h1M48 20h1M44 21h1M20 26h1M50 52h1M24 74h1" />
+    <path stroke="#fefefa" d="M99 12h1M92 20h1M20 21h1M82 24h1M20 46h1M42 61h1M27 73h1" />
+    <path stroke="#f7fcf2" d="M7 13h1" />
+    <path stroke="#7fc377" d="M8 13h1" />
+    <path stroke="#5bad50" d="M22 13h1" />
+    <path stroke="#f5fdf2" d="M23 13h1" />
+    <path stroke="#f8fef6" d="M24 13h1" />
+    <path stroke="#fafefb" d="M25 13h1M5 88h1" />
+    <path stroke="#fafdfb" d="M26 13h1M39 14h1M23 16h1M85 25h1M21 77h1" />
+    <path stroke="#f5faf5" d="M28 13h1" />
+    <path stroke="#a9d9a4" d="M29 13h1" />
+    <path stroke="#36a02e" d="M30 13h1" />
+    <path stroke="#f2fcf3" d="M37 13h1" />
+    <path stroke="#fcfbfc" d="M38 13h1" />
+    <path stroke="#fcfdfd" d="M39 13h1M48 57h1" />
+    <path stroke="#fefbfd" d="M40 13h1M20 45h1M46 45h1" />
+    <path stroke="#c4e4c0" d="M43 13h1" />
+    <path stroke="#4daa47" d="M44 13h1" />
+    <path stroke="#adcfac" d="M58 13h1" />
+    <path stroke="#fafbf8" d="M59 13h1" />
+    <path stroke="#fefcfd" d="M62 13h1M25 15h1M63 17h1M25 18h1M26 20h1M40 22h1M45 47h1" />
+    <path stroke="#f8fcf7" d="M7 14h1M28 14h1M28 22h1" />
+    <path stroke="#7cc576" d="M8 14h1" />
+    <path stroke="#57b04c" d="M22 14h1" />
+    <path stroke="#fbfdfa" d="M23 14h1M59 16h1M24 22h1" />
+    <path stroke="#fbfdfb" d="M24 14h1M42 15h1M31 30h1M28 47h3M35 47h1M37 47h4M18 80h1" />
+    <path stroke="#fcfdfc" d="M25 14h1M43 21h1M45 27h1M78 32h1M27 47h1M23 74h1M21 78h1" />
+    <path stroke="#fcfdfb" d="M26 14h1M59 18h1M21 19h1M74 27h1M46 44h1M14 83h1M14 84h1M14 85h1" />
+    <path stroke="#aad9a4" d="M29 14h1" />
+    <path stroke="#31a02a" d="M30 14h1M30 22h1" />
+    <path stroke="#fafcfa" d="M37 14h1M37 21h1M39 23h1M21 26h1M21 27h1M22 47h1" />
+    <path stroke="#fcfafc" d="M38 14h1M27 23h1" />
+    <path stroke="#fcfefb" d="M41 14h1M41 15h1M38 19h2M41 21h1M49 28h1M2 88h1" />
+    <path stroke="#fbfdfc" d="M42 14h1M26 18h1M39 22h1M32 33h1" />
+    <path stroke="#c7e5c4" d="M43 14h1" />
+    <path stroke="#4bac46" d="M44 14h1" />
+    <path stroke="#a5d3a2" d="M58 14h1" />
+    <path stroke="#fafef7" d="M59 14h1M49 20h1" />
+    <path stroke="#f8fbf9" d="M7 15h1M25 47h1" />
+    <path stroke="#7cc476" d="M8 15h1" />
+    <path stroke="#56b14d" d="M22 15h1" />
+    <path stroke="#fefcfc" d="M26 15h1" />
+    <path stroke="#f9fdf7" d="M28 15h1M28 21h1" />
+    <path stroke="#abd9a4" d="M29 15h1" />
+    <path stroke="#2ea227" d="M30 15h1" />
+    <path stroke="#fafbfa" d="M37 15h1M38 23h1M26 47h1" />
+    <path stroke="#fbfcfc" d="M38 15h1M22 20h1M26 23h1M92 23h1M28 73h1" />
+    <path stroke="#f6fff9" d="M39 15h1" />
+    <path stroke="#fafefc" d="M40 15h1M49 27h1" />
+    <path stroke="#c6e5c2" d="M43 15h1" />
+    <path stroke="#49af41" d="M44 15h1" />
+    <path stroke="#a3d89f" d="M58 15h1" />
+    <path stroke="#fafdf7" d="M59 15h1M48 44h1" />
+    <path stroke="#fefdfc" d="M60 15h1M45 19h1M21 22h1M46 25h1M77 29h1M20 47h1" />
+    <path stroke="#fdfdfc" d="M64 15h1M69 37h1M45 43h1" />
+    <path stroke="#f7fbf8" d="M7 16h1" />
+    <path stroke="#7cc375" d="M8 16h1" />
+    <path stroke="#53b34c" d="M22 16h1" />
+    <path stroke="#fdfdfb" d="M26 16h1M99 16h1M99 17h1M35 31h1M70 40h1" />
+    <path stroke="#fdfefb" d="M27 16h1M23 18h1M42 19h1M27 20h1M74 31h1M59 40h1M47 57h1M20 76h1" />
+    <path stroke="#f9fbf8" d="M28 16h1" />
+    <path stroke="#aed8a9" d="M29 16h1" />
+    <path stroke="#30a228" d="M30 16h1" />
+    <path stroke="#099403" d="M31 16h1" />
+    <path stroke="#fbfbf9" d="M37 16h1" />
+    <path stroke="#fdfcfb" d="M38 16h1M28 69h1M2 87h1" />
+    <path stroke="#fbfefb" d="M39 16h1M26 17h1M20 19h1M23 19h1M43 19h1M35 34h1" />
+    <path stroke="#fcfdfe" d="M40 16h1M42 20h1M45 22h1M20 23h1M76 28h1M71 37h1M71 38h1M71 39h1M53 51h1" />
+    <path stroke="#fdfcfe" d="M41 16h1M23 20h1" />
+    <path stroke="#c5e5c1" d="M43 16h1" />
+    <path stroke="#48af40" d="M44 16h1" />
+    <path stroke="#a1d79d" d="M58 16h1" />
+    <path stroke="#fbfefe" d="M61 16h1" />
+    <path stroke="#fffdfd" d="M98 16h1M98 17h1M88 21h1M48 23h1M31 32h1M55 50h1" />
+    <path stroke="#f5fcf4" d="M7 17h1" />
+    <path stroke="#7ac474" d="M8 17h1" />
+    <path stroke="#55b44b" d="M22 17h1" />
+    <path stroke="#fafef9" d="M23 17h1M32 31h1M20 48h1" />
+    <path stroke="#faf9fa" d="M28 17h1M28 19h1" />
+    <path stroke="#b0d6ab" d="M29 17h1M29 19h1" />
+    <path stroke="#30a229" d="M30 17h1" />
+    <path stroke="#0a9403" d="M31 17h1" />
+    <path stroke="#f9fdf8" d="M37 17h1" />
+    <path stroke="#fbfefc" d="M38 17h1M39 20h1M40 21h1" />
+    <path stroke="#fefbfc" d="M41 17h1" />
+    <path stroke="#fcfdf7" d="M42 17h1M70 37h1" />
+    <path stroke="#c4e6c1" d="M43 17h1" />
+    <path stroke="#48b040" d="M44 17h1" />
+    <path stroke="#0e9403" d="M51 17h1" />
+    <path stroke="#a1d79e" d="M58 17h1" />
+    <path stroke="#fcfcfc" d="M59 17h1M49 23h1M78 30h1M78 33h1M64 41h1M21 75h1M19 80h1" />
+    <path stroke="#fbfffd" d="M61 17h1M47 27h1" />
+    <path stroke="#f8fcf6" d="M7 18h1" />
+    <path stroke="#7bc475" d="M8 18h1" />
+    <path stroke="#50b049" d="M15 18h1" />
+    <path stroke="#98d194" d="M16 18h1" />
+    <path stroke="#9bd396" d="M17 18h1" />
+    <path stroke="#9dd497" d="M18 18h1" />
+    <path stroke="#9dd199" d="M19 18h1" />
+    <path stroke="#99d498" d="M20 18h1" />
+    <path stroke="#9ed299" d="M21 18h1" />
+    <path stroke="#b9dfb4" d="M22 18h1" />
+    <path stroke="#fbf9fa" d="M28 18h1" />
+    <path stroke="#afd8a9" d="M29 18h1" />
+    <path stroke="#2ca426" d="M30 18h1" />
+    <path stroke="#069500" d="M31 18h1" />
+    <path stroke="#f7fdf9" d="M37 18h1" />
+    <path stroke="#fefdfa" d="M41 18h1M77 31h1M45 42h1M21 74h1" />
+    <path stroke="#fdfdf6" d="M42 18h1" />
+    <path stroke="#e8f2e6" d="M43 18h1" />
+    <path stroke="#b5deae" d="M44 18h1" />
+    <path stroke="#9cd295" d="M45 18h1" />
+    <path stroke="#9cd196" d="M46 18h1" />
+    <path stroke="#99d393" d="M47 18h1" />
+    <path stroke="#99d294" d="M48 18h1" />
+    <path stroke="#9cce98" d="M49 18h1" />
+    <path stroke="#98d094" d="M50 18h1" />
+    <path stroke="#239c18" d="M51 18h1" />
+    <path stroke="#a3d79e" d="M58 18h1" />
+    <path stroke="#fcfffd" d="M62 18h1M81 22h1M34 33h1M47 43h1" />
+    <path stroke="#fdfffd" d="M85 18h1M31 68h1" />
+    <path stroke="#f9fcf8" d="M7 19h1M7 20h1M7 21h1M7 22h1M7 23h1M7 24h1M7 25h1M7 26h1M50 26h1M7 27h1M7 28h1M7 29h1M7 30h1M7 31h1M7 32h1M7 33h1M7 34h1M7 35h1M7 36h1M7 37h1M7 38h1M7 39h1" />
+    <path stroke="#7bc575" d="M8 19h1M8 20h1M8 21h1M8 22h1M8 23h1M8 24h1M8 25h1M8 26h1M8 27h1M8 28h1M8 29h1M8 30h1M8 31h1M8 32h1M8 33h1M8 34h1M8 35h1M8 36h1M8 37h1M8 38h1M8 39h1" />
+    <path stroke="#0f9403" d="M9 19h1" />
+    <path stroke="#0c9301" d="M10 19h1" />
+    <path stroke="#0c9400" d="M12 19h1" />
+    <path stroke="#0f9302" d="M13 19h1" />
+    <path stroke="#129505" d="M14 19h1" />
+    <path stroke="#7ec477" d="M15 19h1M15 20h1M15 21h1M15 22h1M15 23h1M15 24h1M15 25h1" />
+    <path stroke="#f8fcf8" d="M16 19h1M49 19h1M16 20h1M50 20h1M16 21h1M16 22h1M50 22h1M16 23h1M16 24h1M16 25h1M50 25h1" />
+    <path stroke="#fafffb" d="M22 19h1" />
+    <path stroke="#fcfcfb" d="M25 19h1" />
+    <path stroke="#fdfcfc" d="M26 19h1M38 20h1M21 21h1" />
+    <path stroke="#fbfffb" d="M27 19h1M32 32h1" />
+    <path stroke="#32a12a" d="M30 19h1" />
+    <path stroke="#0c9304" d="M31 19h1" />
+    <path stroke="#fffbfd" d="M41 19h1" />
+    <path stroke="#fbfefa" d="M48 19h1M27 74h1" />
+    <path stroke="#f8fcf9" d="M50 19h1M25 23h1M50 24h1" />
+    <path stroke="#31a326" d="M51 19h1M51 20h1M51 21h1M51 22h1M51 23h1M51 24h1M51 25h1" />
+    <path stroke="#a3d79f" d="M58 19h1M58 20h1M58 21h1M58 22h1M58 23h1M58 24h1M58 25h1M58 26h1M58 27h1M58 28h1M58 29h1M58 30h1M58 31h1M58 32h1M58 33h1M58 34h1M58 35h1M58 36h1M58 37h1M58 38h1M58 39h1" />
+    <path stroke="#fdfffe" d="M62 19h1M85 19h1M62 20h1M62 21h1M62 22h1M62 23h1M62 24h1M62 25h1M62 26h1M62 27h1M62 28h1M62 29h1M62 30h1M62 31h1M62 32h1M62 33h1M62 34h1M62 35h1M62 36h1M62 37h1M62 38h1M62 39h1M62 40h1M60 42h1M58 43h1M26 48h1M45 48h1M52 49h1M21 72h1" />
+    <path stroke="#f9fcf7" d="M28 20h1" />
+    <path stroke="#aedaa7" d="M29 20h1" />
+    <path stroke="#2fa327" d="M30 20h1" />
+    <path stroke="#079502" d="M31 20h1" />
+    <path stroke="#fbfbfa" d="M37 20h1" />
+    <path stroke="#fbfdfe" d="M40 20h1M47 22h1" />
+    <path stroke="#fdfbfd" d="M43 20h1" />
+    <path stroke="#fffef7" d="M87 20h1" />
+    <path stroke="#fcfdff" d="M90 20h1M14 82h1" />
+    <path stroke="#abd8a4" d="M29 21h1" />
+    <path stroke="#2fa128" d="M30 21h1" />
+    <path stroke="#0a9603" d="M31 21h1" />
+    <path stroke="#f5fff8" d="M39 21h1" />
+    <path stroke="#f9fcf9" d="M50 21h1M50 23h1" />
+    <path stroke="#fffdfc" d="M87 21h1M50 51h1" />
+    <path stroke="#fcfffa" d="M20 22h1" />
+    <path stroke="#fbfffc" d="M25 22h1" />
+    <path stroke="#aadaa4" d="M29 22h1" />
+    <path stroke="#fcfeff" d="M42 22h1" />
+    <path stroke="#faffff" d="M46 22h1" />
+    <path stroke="#fafdf9" d="M49 22h1M32 30h1M7 40h1M45 46h1M42 47h1" />
+    <path stroke="#fffffa" d="M90 22h1M33 65h1" />
+    <path stroke="#fefef5" d="M92 22h1M77 27h1" />
+    <path stroke="#fbf8f9" d="M22 23h1" />
+    <path stroke="#f4fdf0" d="M23 23h1" />
+    <path stroke="#f7fdf5" d="M24 23h1" />
+    <path stroke="#f3f9f3" d="M28 23h1" />
+    <path stroke="#a9d9a3" d="M29 23h1" />
+    <path stroke="#369f2f" d="M30 23h1" />
+    <path stroke="#edfbef" d="M37 23h1" />
+    <path stroke="#fbfafa" d="M40 23h1M35 30h1" />
+    <path stroke="#f6fdf7" d="M42 23h1" />
+    <path stroke="#fefafe" d="M44 23h1M31 33h1M21 47h1M35 67h1" />
+    <path stroke="#f9fef7" d="M46 23h1" />
+    <path stroke="#fbfff8" d="M47 23h1" />
+    <path stroke="#fefdf7" d="M85 23h1" />
+    <path stroke="#fcfef8" d="M86 23h1" />
+    <path stroke="#fbfdff" d="M89 23h1M72 34h1" />
+    <path stroke="#fafef8" d="M90 23h1M43 47h1" />
+    <path stroke="#f3fdf2" d="M21 24h1" />
+    <path stroke="#bee0ba" d="M22 24h1" />
+    <path stroke="#c7e6c3" d="M44 24h1" />
+    <path stroke="#fafafc" d="M49 24h1" />
+    <path stroke="#f9fafe" d="M85 24h1" />
+    <path stroke="#f9fdf9" d="M21 25h1M21 76h1" />
+    <path stroke="#b4deb3" d="M22 25h1" />
+    <path stroke="#c1e3ba" d="M44 25h1" />
+    <path stroke="#fdfcfa" d="M45 25h1" />
+    <path stroke="#f8fef8" d="M49 25h1" />
+    <path stroke="#fffef9" d="M84 25h1" />
+    <path stroke="#85c27f" d="M15 26h1" />
+    <path stroke="#f6fbf7" d="M16 26h1" />
+    <path stroke="#b4dfb1" d="M22 26h1" />
+    <path stroke="#c3e2bd" d="M44 26h1" />
+    <path stroke="#f9fdf6" d="M49 26h1" />
+    <path stroke="#32a427" d="M51 26h1" />
+    <path stroke="#fffff7" d="M77 26h1" />
+    <path stroke="#fafdfd" d="M85 26h1" />
+    <path stroke="#7ec478" d="M15 27h1" />
+    <path stroke="#f3fcf1" d="M16 27h1" />
+    <path stroke="#fbfff9" d="M18 27h1" />
+    <path stroke="#f8fffa" d="M19 27h1" />
+    <path stroke="#f7fef9" d="M20 27h1" />
+    <path stroke="#b6dfb0" d="M22 27h1" />
+    <path stroke="#c0e3be" d="M44 27h1" />
+    <path stroke="#f7fbf9" d="M50 27h1" />
+    <path stroke="#2ea426" d="M51 27h1" />
+    <path stroke="#7fc77c" d="M15 28h1" />
+    <path stroke="#f4fcf1" d="M16 28h1" />
+    <path stroke="#fef9fe" d="M17 28h1" />
+    <path stroke="#f9f9f9" d="M21 28h1" />
+    <path stroke="#b1dfae" d="M22 28h1" />
+    <path stroke="#109403" d="M29 28h1" />
+    <path stroke="#c1e4bd" d="M44 28h1" />
+    <path stroke="#f8f9f7" d="M50 28h1" />
+    <path stroke="#349f2b" d="M51 28h1" />
+    <path stroke="#fdfff9" d="M79 28h1M30 66h1" />
+    <path stroke="#fdfef9" d="M84 28h1M70 39h1M66 40h2" />
+    <path stroke="#f9fdfc" d="M85 28h1" />
+    <path stroke="#67bd61" d="M15 29h1" />
+    <path stroke="#c0e7bb" d="M16 29h1" />
+    <path stroke="#cfe8ca" d="M17 29h1" />
+    <path stroke="#cfe9cd" d="M18 29h2" />
+    <path stroke="#cde8cb" d="M20 29h1" />
+    <path stroke="#cae6ca" d="M21 29h1" />
+    <path stroke="#90cf8d" d="M22 29h1" />
+    <path stroke="#1c9b13" d="M29 29h1" />
+    <path stroke="#37a42d" d="M30 29h1" />
+    <path stroke="#3ba834" d="M31 29h1" />
+    <path stroke="#38a931" d="M32 29h1" />
+    <path stroke="#3da632" d="M33 29h1" />
+    <path stroke="#40a834" d="M34 29h1" />
+    <path stroke="#3ca931" d="M35 29h1" />
+    <path stroke="#37a32e" d="M36 29h1" />
+    <path stroke="#9ad593" d="M44 29h1" />
+    <path stroke="#cbe8c8" d="M45 29h1" />
+    <path stroke="#cde8cc" d="M46 29h1" />
+    <path stroke="#d0e9ce" d="M47 29h1" />
+    <path stroke="#d0e9cd" d="M48 29h1" />
+    <path stroke="#cbe9ca" d="M49 29h1" />
+    <path stroke="#c3e7bf" d="M50 29h1" />
+    <path stroke="#2b9c20" d="M51 29h1" />
+    <path stroke="#fcfbfd" d="M78 29h1" />
+    <path stroke="#63b65b" d="M29 30h1" />
+    <path stroke="#daeed7" d="M30 30h1" />
+    <path stroke="#f5fef7" d="M34 30h1" />
+    <path stroke="#e2f5e2" d="M36 30h1" />
+    <path stroke="#fefef8" d="M77 30h1M48 47h1" />
+    <path stroke="#60b758" d="M29 31h1" />
+    <path stroke="#daeed9" d="M30 31h1" />
+    <path stroke="#fffefa" d="M34 31h1M76 33h1M28 68h1M6 89h1" />
+    <path stroke="#e5f6e2" d="M36 31h1" />
+    <path stroke="#64b957" d="M29 32h1" />
+    <path stroke="#ddedd7" d="M30 32h1" />
+    <path stroke="#ebf6e7" d="M36 32h1" />
+    <path stroke="#62b958" d="M29 33h1" />
+    <path stroke="#dceed9" d="M30 33h1" />
+    <path stroke="#ebf5e8" d="M36 33h1" />
+    <path stroke="#5fb957" d="M29 34h1" />
+    <path stroke="#d9efd3" d="M30 34h1" />
+    <path stroke="#fefafd" d="M31 34h1M20 42h1" />
+    <path stroke="#ebf6e9" d="M36 34h1" />
+    <path stroke="#fdfff7" d="M71 34h1" />
+    <path stroke="#f9fcfb" d="M78 34h1M50 56h1" />
+    <path stroke="#33a62a" d="M29 35h1" />
+    <path stroke="#72c167" d="M30 35h1" />
+    <path stroke="#82c47c" d="M31 35h1" />
+    <path stroke="#82c97e" d="M32 35h1" />
+    <path stroke="#83c97e" d="M33 35h1" />
+    <path stroke="#86c87d" d="M34 35h1" />
+    <path stroke="#82c97c" d="M35 35h1" />
+    <path stroke="#7ec17a" d="M36 35h1" />
+    <path stroke="#fbfcf9" d="M71 35h1" />
+    <path stroke="#fafcfc" d="M71 36h1" />
+    <path stroke="#7dc677" d="M8 40h1" />
+    <path stroke="#a4d7a0" d="M58 40h1" />
+    <path stroke="#fbfcfe" d="M71 40h1M50 55h1" />
+    <path stroke="#e7f4e5" d="M8 41h1" />
+    <path stroke="#d3ecd1" d="M9 41h1M12 41h1" />
+    <path stroke="#d1ebcf" d="M10 41h1" />
+    <path stroke="#d2ebd0" d="M11 41h1M51 41h1" />
+    <path stroke="#d3ebd0" d="M13 41h1M15 41h1M18 41h1M52 41h2M55 41h1" />
+    <path stroke="#d2ebcf" d="M14 41h1M16 41h2M54 41h1" />
+    <path stroke="#d2eacf" d="M19 41h1" />
+    <path stroke="#d1e8cc" d="M20 41h1" />
+    <path stroke="#cfeacb" d="M21 41h1" />
+    <path stroke="#96d093" d="M22 41h1" />
+    <path stroke="#a0d49a" d="M44 41h1" />
+    <path stroke="#d0eacd" d="M45 41h1" />
+    <path stroke="#d1ebd1" d="M46 41h1" />
+    <path stroke="#d2ead1" d="M47 41h1" />
+    <path stroke="#d2e9d0" d="M48 41h1" />
+    <path stroke="#cceac8" d="M49 41h1" />
+    <path stroke="#d1ebce" d="M50 41h1" />
+    <path stroke="#d3ebd1" d="M56 41h1" />
+    <path stroke="#d8edd6" d="M57 41h1" />
+    <path stroke="#edf7ec" d="M58 41h1" />
+    <path stroke="#fbfbfb" d="M21 42h1" />
+    <path stroke="#b8dab4" d="M22 42h1" />
+    <path stroke="#c6e0be" d="M44 42h1" />
+    <path stroke="#fffafe" d="M48 42h1" />
+    <path stroke="#fbfcff" d="M64 42h1" />
+    <path stroke="#f8fefb" d="M20 43h1" />
+    <path stroke="#f3fcf4" d="M21 43h1" />
+    <path stroke="#b5dfb3" d="M22 43h1" />
+    <path stroke="#c0e4be" d="M44 43h1" />
+    <path stroke="#fbfcfd" d="M64 43h1M7 87h1" />
+    <path stroke="#b3ddb2" d="M22 44h1" />
+    <path stroke="#c3e0bc" d="M44 44h1" />
+    <path stroke="#fefbfb" d="M45 44h1" />
+    <path stroke="#fcfcff" d="M64 44h1M37 63h4" />
+    <path stroke="#f9fbfa" d="M21 45h1" />
+    <path stroke="#b2dfb0" d="M22 45h1" />
+    <path stroke="#bfe6b6" d="M44 45h1" />
+    <path stroke="#fcfcf8" d="M45 45h1" />
+    <path stroke="#fdfdf7" d="M58 45h1" />
+    <path stroke="#fcfaff" d="M64 45h1" />
+    <path stroke="#f8fdf7" d="M21 46h1" />
+    <path stroke="#b6e1b5" d="M22 46h1" />
+    <path stroke="#5bb154" d="M43 46h1" />
+    <path stroke="#c5e7c0" d="M44 46h1" />
+    <path stroke="#f9fffc" d="M49 46h1" />
+    <path stroke="#f2fdf3" d="M23 47h1" />
+    <path stroke="#f9fdfa" d="M24 47h1" />
+    <path stroke="#fffdfb" d="M44 47h1" />
+    <path stroke="#fffef6" d="M54 49h1" />
+    <path stroke="#fffcfc" d="M54 50h1" />
+    <path stroke="#fcfff8" d="M52 51h1" />
+    <path stroke="#fdfff8" d="M54 51h1" />
+    <path stroke="#fafcfd" d="M50 53h1" />
+    <path stroke="#f9fcfd" d="M50 54h1M49 57h1" />
+    <path stroke="#f5f8fd" d="M50 57h1" />
+    <path stroke="#fbfbff" d="M41 63h1" />
+    <path stroke="#fafbfb" d="M42 63h1" />
+    <path stroke="#fefff7" d="M29 68h1" />
+    <path stroke="#fbfbfe" d="M28 70h1" />
+    <path stroke="#fbfdfd" d="M28 71h1M26 74h1" />
+    <path stroke="#fefdf9" d="M22 74h1" />
+    <path stroke="#f7fcfd" d="M28 74h1" />
+    <path stroke="#fafbfe" d="M21 79h1" />
+    <path stroke="#fffef8" d="M14 80h1" />
+    <path stroke="#f7fbff" d="M16 80h1M21 80h1" />
+    <path stroke="#f8fdfb" d="M17 80h1" />
+    <path stroke="#fbfbfd" d="M20 80h1" />
+    <path stroke="#faf9ff" d="M14 81h1" />
+    <path stroke="#fafffd" d="M4 88h1" />
+    <path stroke="#f8fbfd" d="M7 88h1" />
+    <path stroke="#fbfbfc" d="M7 89h1" />
+    <path stroke="#f8fcfe" d="M7 90h1" />
+    <path stroke="#fbfef7" d="M2 91h1" />
+    <path stroke="#f6fcfd" d="M7 91h1" />
+</svg>

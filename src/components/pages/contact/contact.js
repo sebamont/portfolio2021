@@ -6,11 +6,18 @@ import './contact.css';
 //importing Context
 import {GlobalContext} from '../../../context/GlobalContext';
 
+//importing static files
+import MarioClimbingSVG from '../../../static/mario-climbing.svg';
+import MarioFlagSVG from '../../../static/mario-flag.svg';
+
 export function Contact(){
     const {english} = useContext(GlobalContext);
 
+
     return(
         <motion.div className="contact-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
+            <img src={MarioClimbingSVG} alt="mario climbing" id="mario-climbing"/>
+            <img src={MarioFlagSVG} alt="mario flag" id="mario-flag"/>
             <div className="contact-header-container">
                 <div className="contact-left-column">
                     
