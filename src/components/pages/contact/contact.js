@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {motion} from 'framer-motion';
 import {pageTransition, PageTransitionDurations} from '../../pageTransition/pageTransition';
 import './contact.css';
@@ -12,7 +12,9 @@ import MarioFlagSVG from '../../../static/mario-flag.svg';
 
 export function Contact(){
     const {english} = useContext(GlobalContext);
-
+    useEffect( ()=>{
+        document.title = `Sebastian Montagna - ${english?"Contact":"Contacto"}`
+    },[english])
 
     return(
         <motion.div className="contact-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>

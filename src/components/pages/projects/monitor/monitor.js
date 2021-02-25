@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {motion} from 'framer-motion';
 import {pageTransition, PageTransitionDurations} from '../../../pageTransition/pageTransition';
 import './monitor.css';
@@ -11,10 +11,10 @@ import {ProjectContext} from '../../../../context/ProjectsContext';
 export function Monitor (props){
     const {english} = useContext(GlobalContext);
     const {maxIndexOfProj, projects, currentProj} = useContext(ProjectContext);
-
     
-
-    
+    useEffect( ()=>{
+        document.title = `Sebastian Montagna - ${english?"Projects":"Proyectos"}`
+    },[english])
 
     return(
         <motion.div id="monitor-wrapper" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>

@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import { useScrollData } from "scroll-data-hook";
 
 //Contexts
@@ -18,6 +18,10 @@ import './landing.css';
 export function Main(){
     const {position} = useScrollData();
     const {english} = useContext(GlobalContext);
+
+    useEffect( ()=>{
+        document.title = "Sebastian Montagna" 
+    },[])
 
     return(
         <motion.div className="main-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>

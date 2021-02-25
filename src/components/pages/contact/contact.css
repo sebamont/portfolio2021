@@ -5,7 +5,7 @@
   border-left: 1.3vw solid rgba(171, 192, 143, 0.4);
   position: relative;
   overflow: hidden;
-  animation: borderDisappear 1s ease forwards 3.5s;
+  animation: borderDisappear 1s ease forwards 4s;
 }
 .arcade-font {
   font-family: "arcadeClassic", monospace;
@@ -20,7 +20,8 @@
   top: 0%;
   --initialTop: 0%;
   --finalTop: 50%;
-  animation: marioSlide 3s linear forwards, marioDisappear 1s ease forwards 3.5s;
+  animation: marioSlide 3s linear forwards 0.5s,
+    marioDisappear 1s ease forwards 4s;
 }
 
 #mario-climbing {
@@ -35,7 +36,8 @@
   top: 30%;
   --initialTop: 30%;
   --finalTop: 80%;
-  animation: marioSlide 3s linear forwards, marioDisappear 1s ease forwards 3.5s;
+  animation: marioSlide 3s linear forwards 0.5s,
+    marioDisappear 1s ease forwards 4s;
 }
 @media (min-width: 500px) {
   #mario-climbing {

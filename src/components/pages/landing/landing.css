@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 .arcade-font {
   font-family: "arcadeClassic", monospace;
@@ -33,41 +34,44 @@
   position: relative;
 }
 #pacman {
+  right: -15%;
   position: absolute;
   bottom: 0;
   width: 36px;
   opacity: 0.2;
   z-index: -1;
-  animation: moveGhost 3s linear infinite 2s;
+  animation: moveGhost 5s linear infinite 2s;
   filter: drop-shadow(1px 0 0px yellow);
 }
 
 #pacman-ghost {
+  right: -15%;
   position: absolute;
   bottom: 0;
   width: 36px;
   opacity: 0.2;
   z-index: -1;
-  animation: moveGhost 3s linear infinite 1s;
+  animation: moveGhost 5s linear infinite 1s;
   filter: drop-shadow(1px 0 0px crimson);
 }
 #pacman-ghost2 {
+  right: -15%;
   display: none;
   position: absolute;
   bottom: 0;
   width: 36px;
   opacity: 0.2;
   z-index: -1;
-  animation: moveGhost 3s linear infinite;
+  animation: moveGhost 5s linear infinite;
   filter: drop-shadow(1px 0 0px blue);
 }
 
 @keyframes moveGhost {
   from {
-    right: 0%;
+    right: -20%;
   }
   to {
-    right: 100%;
+    right: 150%;
   }
 }
 
@@ -158,7 +162,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 0.4fr 0.2fr 1fr;
-  grid-template-areas: "skills skills" "projects projects" "about about" ;
+  grid-template-areas: "skills skills" "projects projects" "about about";
   font-family: monospace;
   background-color: whitesmoke;
   row-gap: 0px;
