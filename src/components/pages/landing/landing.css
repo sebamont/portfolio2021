@@ -236,51 +236,51 @@
 
 #communication-icon {
   --buttonOpacity: 0.9;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #english-icon {
   --buttonOpacity: 0.9;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #teamwork-icon {
   --buttonOpacity: 0.85;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #css-icon {
   --buttonOpacity: 0.8;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #html-icon {
   --buttonOpacity: 0.76;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #react-icon {
   --buttonOpacity: 0.73;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #bootstrap-icon {
   --buttonOpacity: 0.7;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #django-icon {
   --buttonOpacity: 0.69;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #git-icon {
   --buttonOpacity: 0.5;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #coffee-icon {
   --buttonOpacity: 0.3;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #gamedev-icon {
   --buttonOpacity: 0.35;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #uxui-icon {
   --buttonOpacity: 0.25;
-  animation: buttonLike 2.5s ease forwards;
+  animation: buttonLike 2.5s ease forwards 0.5s;
 }
 
 @keyframes buttonLike {

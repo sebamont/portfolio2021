@@ -18,13 +18,13 @@ export const ProjectContextProvider = (props) => {
 
     const projects = [
         {
-            title : english ? "Consuming Twitch Rest APIs with React" : "Usando Rest APIs de Twitch con React",
+            title : english ? 'Consuming &nbsp;Twitch&nbsp; Rest APIs with React' : "Usando Rest APIs de &nbsp;Twitch&nbsp; con React",
             component : <APIRest />,
             link_to : "https://game-list-twitch-api.vercel.app/",
             link_code : "https://codesandbox.io/s/consuming-twitch-api-mbvm7"
         },
         {
-            title : english ? "Django's suggestions blog." : "Blog de sugerencias con Django",
+            title : english ? "Django's &nbsp;suggestions&nbsp; blog." : "Blog de sugerencias con Django",
             component : <DjangoBlog />,
             link_to : "https://blogsito2.herokuapp.com/",
             link_code : "https://github.com/sebamont/publicBlog"

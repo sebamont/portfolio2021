@@ -20,7 +20,7 @@ export function Monitor (props){
         <motion.div id="monitor-wrapper" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <div id="monitor">
                 <div className="monitor-title">
-                    <h1>{projects[currentProj].title}</h1>
+                    <h1 dangerouslySetInnerHTML={{__html: projects[currentProj].title}}></h1>
                 </div>
                 <div className="monitor-content">
                     {projects[currentProj].component}

@@ -31,7 +31,7 @@ export function Main(){
                 <img id="pacman-ghost2" src={GhostSvg}/>
                 <div className="left-column">
                     <h1><span className="arcade-font">{english ? "Hello!" : "Hola!"}</span> <br />{english ? "I'm Sebastian Montagna" : "Soy Sebastian Montagna"} </h1>
-                    <h3>{english ? "And I am looking for my" : "Y estoy buscando mi"} <u>{english ? "first IT Job" : "primer trabajo IT"}</u>. <br />{english ? "Developer by election, accountant by profession, gamer just because." : "Desarrollador por elección, contador por profesión, gamer porque si."}</h3>
+                    <h3>{english ? "And I am looking for my" : "Y estoy buscando mi"} <u>{english ? "first IT Job" : "primer trabajo IT"}</u>. <br />{english ? "Developer by choice, accountant by profession, gamer just because." : "Desarrollador por elección, contador por profesión, gamer porque si."}</h3>
                     <p><small>{english ? "Got any opportunity? I'm looking forward to your" : "Tenés alguna oportunidad para mi? Me gustaría recibir tu"} <Link to="/contact"><b>{english ? "Contact" : "Contacto"}</b></Link>.</small></p>
                 </div>
                 <div className="right-column">

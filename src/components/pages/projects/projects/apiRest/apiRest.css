@@ -1,16 +1,15 @@
-#apiRest-container img{
-    position: absolute center;
-    display: flex;
-    align-self: center;
-    max-height: 400px;
-    max-width: 100%;
-    height: auto;
-    width: 480px;
-    /* filter: drop-shadow(5px 5px 5px #fff); */
-    filter: grayscale(100%);
+#apiRest-container img {
+  position: absolute center;
+  display: flex;
+  align-self: center;
+  max-height: 400px;
+  max-width: 100%;
+  height: auto;
+  /* filter: drop-shadow(5px 5px 5px #fff); */
+  filter: grayscale(100%);
 }
-@media(min-height:840px){
-    #apiRest-container img{
-        max-height: 400px;
-    }
+@media (min-height: 1000px) {
+  #apiRest-container img {
+    max-height: 480px;
+  }
 }
