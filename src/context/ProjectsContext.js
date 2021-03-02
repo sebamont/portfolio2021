@@ -9,12 +9,13 @@ import {ResponsiveWeb} from '../components/pages/projects/projects/responsiveWeb
 import {DjangoBlog} from '../components/pages/projects/projects/djangoBlog/djangoBlog';
 import {UnityHobby} from '../components/pages/projects/projects/unityHobby/unityHobby';
 import {APIRest} from '../components/pages/projects/projects/apiRest/apiRest';
+import {ExpenseTracker} from '../components/pages/projects/projects/expenseTracker/expenseTracker';
 
 export const ProjectContext = createContext();
 
 export const ProjectContextProvider = (props) => {
     const {english} = useContext(GlobalContext);
-    const maxIndexOfProj = 4; // current N° of projs = 5 (so index is -1)
+    const maxIndexOfProj = 5; // current N° of projs = 6 (so index is -1)
 
     const projects = [
         {
@@ -40,6 +41,12 @@ export const ProjectContextProvider = (props) => {
             component : <ResponsiveWeb />,
             link_to : "https://rotonda-react.vercel.app/",
             link_code : "https://github.com/sebamont/rotonda-react"
+        },
+        {
+            title : english ? "Expense Tracker":"Anotador de Ingresos y Gastos",
+            component : <ExpenseTracker />,
+            link_to : "https://anotador-gastos.vercel.app/",
+            link_code : "https://github.com/sebamont/anotador-gastos"
         },
         {
             title : english ? "Hobby: GameDev with Unity" : "Hobby: Desarrollo de videojuegos con Unity",
