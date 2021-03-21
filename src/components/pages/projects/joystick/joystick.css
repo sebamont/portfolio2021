@@ -44,9 +44,21 @@
     fill:black;
 }
 
+@keyframes blinkButtons  {
+    from{
+        fill: #0b0111;
+    }
+    to{
+        fill: #502a66;
+    }
+}
 
+.blink-button{
+    animation: blinkButtons 0.7s linear forwards infinite;
+}
 
 .next-proj-button:hover, .prev-proj-button:hover{
+    animation: none;
     cursor: pointer;
     fill:black;
     height: 14%;

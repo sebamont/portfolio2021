@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import {
   Switch,
@@ -9,6 +9,7 @@ import {
 import {AnimatePresence} from 'framer-motion';
 
 import './App.css';
+
 
 //Overall components
 import {NavBar} from './components/navBar/navbar';
@@ -30,8 +31,18 @@ import {Contact} from './components/pages/contact/contact';
 // 404 not found page component:
 import {NotFound} from './components/pages/notFound/notFound';
 
+//Google analytics integration:
+import ReactGA from 'react-ga';
+
 function App() {
   const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.initialize('G-G4NSZYGLYX');
+
+    ReactGA.pageview(location.pathname);
+  }, []);
+
   return (
     <GlobalContextProvider>
       <NavBar/>
