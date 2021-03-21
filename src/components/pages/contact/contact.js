@@ -27,7 +27,7 @@ export function Contact(){
                 </div>
                 <div className="contact-right-column">
                     <h2 id="contact-title" className="arcade-font">{english ? "Thank you for passing by" : "Gracias por pasarte"}</h2>
-                    <p id="contact-text">{english ? "If you'd like to contact me, whether it is about a Job located in Cordoba ARG (willing to relocate), a Remote Job, a Freelance Job, or just because you felt like it, you can find me in" : "Si te interesaría contactarme, ya sea para un trabajo Remoto, ubicado en Córdoba-ARG, Freelance, o por otra cuestión, me podés encontrar por"}</p>     
+                    <p id="contact-text">{english ? "If you'd like to contact me, whether it is about a Job located in Cordoba ARG, a Remote Job, a Freelance Job, or just because you felt like it, you can find me in" : "Si te interesaría contactarme, ya sea para un trabajo Remoto, ubicado en Córdoba-ARG, Freelance, o por otra cuestión, me podés encontrar por"}</p>     
                     <div className="contact-options">
                         <a href="mailto:sebamontagna@gmail.com" target="_blank"><i className="far fa-envelope"></i></a>
                         <a href="https://github.com/sebamont" target="_blank"><i className="fab fa-github"></i></a>
