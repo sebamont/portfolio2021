@@ -26,7 +26,7 @@ export const ProjectContextProvider = (props) => {
             usedTechs: "Node.js, Express, MongoDB,<br /> mongoose, React, Chakra UI,<br /> axios, Recharts, React-Router"
         },
         {
-            title : english ? 'CAR Store: Consuming  Rest APIs with React' : "CAR Store:&nbsp; Usando Rest APIs con React",
+            title : english ? 'CAR Store: Rest APIs with React' : "CAR Store:&nbsp; Rest APIs con React",
             component : <APIRest />,
             link_to : "https://simplicar-challenge.vercel.app/",
             link_code : "https://github.com/sebamont/simplicar-challenge",
