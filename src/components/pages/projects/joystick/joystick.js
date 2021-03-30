@@ -1,14 +1,15 @@
 import React, {useContext} from 'react';
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
+import ReactTooltip from 'react-tooltip';
 import {pageTransition, PageTransitionDurations}from '../../../pageTransition/pageTransition';
 import './joystick.css';
 
 //import contexts
 import {ProjectContext} from '../../../../context/ProjectsContext';
 
-export function Joystick(props){
-    const {maxIndexOfProj, currentProj, handleNextProj, handlePrevProj} = useContext(ProjectContext);
+export function Joystick(){
+    const {maxIndexOfProj, currentProj, handleNextProj, handlePrevProj, projects} = useContext(ProjectContext);
  
     return(
         <motion.div id="joystick-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
@@ -37,10 +38,10 @@ export function Joystick(props){
                 <circle cx="241.5" cy="65.5" r="35.5" fill="#DEDBDB"/>
                 </g>
                 <g filter="url(#filter6_di)">
-                <Link to="/contact"><path d="M132.613 85.936C123.877 86.778 115.274 84.2344 113.397 80.2548C111.521 76.2751 117.082 72.3665 125.819 71.5245C134.555 70.6825 143.158 73.2261 145.034 77.2058C146.911 81.1854 141.349 85.0941 132.613 85.936Z" fill="#7C7F89" id="exit-button" className="exit-buttons"/></Link>
+                <a data-tip data-for="projectTechs"><path d="M132.613 85.936C123.877 86.778 115.274 84.2344 113.397 80.2548C111.521 76.2751 117.082 72.3665 125.819 71.5245C134.555 70.6825 143.158 73.2261 145.034 77.2058C146.911 81.1854 141.349 85.0941 132.613 85.936Z" fill="#856497" id="exit-button" className="techs-buttons"/></a>
                 </g>
                 <g filter="url(#filter7_di)">
-                <Link to="/contact"><path d="M179.613 86.1944C170.877 87.0364 162.274 84.4928 160.397 80.5132C158.521 76.5335 164.082 72.6248 172.819 71.7829C181.555 70.9409 190.158 73.4845 192.034 77.4642C193.911 81.4438 188.349 85.3525 179.613 86.1944Z" fill="#7C7F89" id="start-button" className="exit-buttons"/></Link>
+                <a data-tip data-for="projectTechs"><path d="M179.613 86.1944C170.877 87.0364 162.274 84.4928 160.397 80.5132C158.521 76.5335 164.082 72.6248 172.819 71.7829C181.555 70.9409 190.158 73.4845 192.034 77.4642C193.911 81.4438 188.349 85.3525 179.613 86.1944Z" fill="#856497" id="start-button" className="techs-buttons"/></a>
                 </g>
                 <rect x="71" y="55" width="19" height="19" fill="#777777" className={currentProj < maxIndexOfProj ? currentProj === 0 ? "next-proj-button blink-button" : "next-proj-button" : ""}  onClick={handleNextProj}/>
                 <rect x="35" y="55" width="18" height="19" fill="#777777" className={currentProj > 0 ? currentProj === maxIndexOfProj ? "prev-proj-button blink-button" : "prev-proj-button" : ""} onClick={handlePrevProj}/>
@@ -245,8 +246,13 @@ export function Joystick(props){
                 </filter>
                 </defs>
                 </svg>
+                <span id="techs-text" className="button-info">Techs</span>
+                <span id="next-text" className="button-info">Prev/Next</span>
+                <span id="exit-text" className="button-info">Exit</span>
 
-
+                <ReactTooltip id='projectTechs' effect="solid">
+                    <span dangerouslySetInnerHTML={{__html:projects[currentProj].usedTechs}} />
+                </ReactTooltip>
 
             </div>
         </motion.div>

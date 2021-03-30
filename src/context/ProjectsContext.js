@@ -19,40 +19,46 @@ export const ProjectContextProvider = (props) => {
 
     const projects = [
         {
+            title : english ? "Expense Tracker":"Anotador de Ingresos y Gastos",
+            component : <ExpenseTracker />,
+            link_to : "https://expense-tracker-mern-sebamont.herokuapp.com/",
+            link_code : "https://github.com/sebamont/alkemy-challenge",
+            usedTechs: "Node.js, Express, MongoDB,<br /> mongoose, React, Chakra UI,<br /> axios, Recharts, React-Router"
+        },
+        {
             title : english ? 'CAR Store: Consuming  Rest APIs with React' : "CAR Store:&nbsp; Usando Rest APIs con React",
             component : <APIRest />,
             link_to : "https://simplicar-challenge.vercel.app/",
-            link_code : "https://github.com/sebamont/simplicar-challenge"
+            link_code : "https://github.com/sebamont/simplicar-challenge",
+            usedTechs: " React, React-Router, axios, <br /> Reactstrap, Bootstrap"
         },
         {
             title : english ? "Django's &nbsp;suggestions&nbsp; blog." : "Blog de sugerencias con Django",
             component : <DjangoBlog />,
             link_to : "https://blogsito2.herokuapp.com/",
-            link_code : "https://github.com/sebamont/publicBlog"
+            link_code : "https://github.com/sebamont/publicBlog",
+            usedTechs: "Monolithic Django"
         },
         {
             title : english ? "SVG + CSS Animations" : "Animaciones SVG+CSS",
             component : <SvgLogo />,
             link_to : "/",
-            link_code : "https://codepen.io/seba_mont/pen/gOLrNzJ"
+            link_code : "https://codepen.io/seba_mont/pen/gOLrNzJ",
+            usedTechs: "SVGs, CSS, Keyframes, Animate"
         },
          {
             title : english ? "Responsive Web Design with React+Bootstrap":"Diseño de Sitios Responsive con React+Bootstrap",
             component : <ResponsiveWeb />,
             link_to : "https://rotonda-react.vercel.app/",
-            link_code : "https://github.com/sebamont/rotonda-react"
-        },
-        {
-            title : english ? "Expense Tracker":"Anotador de Ingresos y Gastos",
-            component : <ExpenseTracker />,
-            link_to : "https://anotador-gastos.vercel.app/",
-            link_code : "https://github.com/sebamont/anotador-gastos"
+            link_code : "https://github.com/sebamont/rotonda-react",
+            usedTechs: "Bootstrap, React, React-Router, <br />HTML5, CSS3"
         },
         {
             title : english ? "Hobby: GameDev with Unity" : "Hobby: Desarrollo de videojuegos con Unity",
             component : <UnityHobby />,
             link_to : "/",
-            link_code : "/"
+            link_code : "/",
+            usedTechs: "Unity, UnityAPI, C#"
         },
         
     ]

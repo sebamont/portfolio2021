@@ -1,65 +1,116 @@
-#joystick-container{
-    background-color:   whitesmoke;
-    display: flex;
+#joystick-container {
+  background-color: whitesmoke;
+  display: flex;
 }
 
-#wire{
-    position: absolute;
-    height: 10vh;
-    width: 10px;
-    left: 50%;
-    background-color: black;
-    box-shadow: inset 1px -10px 10px rgb(109, 109, 109);
-    
+#wire {
+  position: absolute;
+  height: 10vh;
+  width: 10px;
+  left: 50%;
+  background-color: black;
+  box-shadow: inset 1px -10px 10px rgb(109, 109, 109);
 }
-#joystick{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    
-
+#joystick {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
 }
 
-#joystick svg{
-    z-index: 100;
-    height: 90%;
-    width: 90%;
-    filter: drop-shadow(0px 10px 10px #31213077) drop-shadow(0px -2px 5px #31213077);
-    
-
+#joystick svg {
+  z-index: 100;
+  height: 90%;
+  width: 90%;
+  filter: drop-shadow(0px 10px 10px #31213077)
+    drop-shadow(0px -2px 5px #31213077);
 }
 
-@media (min-width: 500px){
-    #joystick svg{
-        padding-top: 30px;
-    }
+@media (min-width: 500px) {
+  #joystick svg {
+    padding-top: 30px;
+  }
 }
-.exit-buttons, .next-proj-button, .prev-proj-button{
+.exit-buttons,
+.next-proj-button,
+.prev-proj-button {
+  fill: #502a66;
+}
+
+.techs-buttons:hover,
+.exit-buttons:hover {
+  cursor: pointer;
+  fill: black;
+}
+
+@keyframes blinkButtons {
+  from {
+    fill: #0b0111;
+  }
+  to {
     fill: #502a66;
+  }
 }
 
-.exit-buttons:hover{
-    cursor: pointer;
-    fill:black;
+.blink-button {
+  animation: blinkButtons 0.7s linear forwards infinite;
 }
 
-@keyframes blinkButtons  {
-    from{
-        fill: #0b0111;
-    }
-    to{
-        fill: #502a66;
-    }
+.next-proj-button:hover,
+.prev-proj-button:hover {
+  animation: none;
+  cursor: pointer;
+  fill: black;
+  height: 14%;
 }
 
-.blink-button{
-    animation: blinkButtons 0.7s linear forwards infinite;
+.button-info {
+  font-size: max(16px, 1.5vw);
+  position: absolute;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.1);
+  color: rgb(65, 65, 65);
+  border-radius: 5px;
 }
 
-.next-proj-button:hover, .prev-proj-button:hover{
-    animation: none;
-    cursor: pointer;
-    fill:black;
-    height: 14%;
+#techs-text {
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#next-text {
+  top: 25%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+#exit-text {
+  top: 25%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 500px) {
+  #next-text {
+    left: 35%;
+  }
+  #exit-text {
+    right: 30%;
+  }
+}
+@media (min-width: 750px) {
+  #next-text {
+    left: 40%;
+  }
+  #exit-text {
+    right: 35%;
+  }
+}
+@media (min-width: 1080px) {
+  #next-text {
+    left: 42%;
+  }
+  #exit-text {
+    right: 40%;
+  }
 }

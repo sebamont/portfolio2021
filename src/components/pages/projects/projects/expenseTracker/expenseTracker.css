@@ -6,6 +6,8 @@
   max-width: 100%;
   height: auto;
   /* filter: drop-shadow(5px 5px 5px #fff); */
+  border: 10px solid #3a3a3a;
+  border-radius: 10px;
   filter: grayscale(100%);
 }
 @media (min-height: 840px) {
