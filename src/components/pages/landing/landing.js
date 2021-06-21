@@ -26,12 +26,12 @@ export function Main(){
     return(
         <motion.div className="main-container" exit={pageTransition.out} initial={pageTransition.out} animate={pageTransition.in} transition={PageTransitionDurations}>
             <header className="header-container">
-                <img id="pacman" src={PacmanSVG} />
-                <img id="pacman-ghost" src={GhostSvg}/>
-                <img id="pacman-ghost2" src={GhostSvg}/>
+                <img id="pacman" src={PacmanSVG} alt="Pacman" />
+                <img id="pacman-ghost" src={GhostSvg} alt="Pacman ghost"/>
+                <img id="pacman-ghost2" src={GhostSvg} alt="Pacman ghost"/>
                 <div className="left-column">
                     <h1><span className="arcade-font">{english ? "Hello!" : "Hola!"}</span> <br />{english ? "I'm Sebastian Montagna" : "Soy Sebastian Montagna"} </h1>
-                    <h3>{english ? "And I am looking for my" : "Y estoy buscando mi"} <u>{english ? "first IT Job" : "primer trabajo IT"}</u>. <br />{english ? "Developer by choice, accountant by profession, gamer just because." : "Desarrollador por elección, contador por profesión, gamer porque si."}</h3>
+                    <h3>{english ? "Developer by choice, accountant by profession, gamer just because." : "Desarrollador por elección, contador por profesión, gamer porque si."}</h3>
                     <p><small>{english ? "Got any opportunity? I'm looking forward to your" : "Tenés alguna oportunidad para mi? Me gustaría recibir tu"} <Link to="/contact"><b>{english ? "Contact" : "Contacto"}</b></Link>.</small></p>
                 </div>
                 <div className="right-column">
