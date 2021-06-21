@@ -246,16 +246,16 @@
   --buttonOpacity: 0.85;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
+#react-icon {
+  --buttonOpacity: 0.81;
+  animation: buttonLike 2.5s ease forwards 0.5s;
+}
 #css-icon {
   --buttonOpacity: 0.8;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #html-icon {
   --buttonOpacity: 0.76;
-  animation: buttonLike 2.5s ease forwards 0.5s;
-}
-#react-icon {
-  --buttonOpacity: 0.73;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #bootstrap-icon {
