@@ -235,51 +235,51 @@
 }
 
 #communication-icon {
-  --buttonOpacity: 0.9;
+  --buttonOpacity: 0.95;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #english-icon {
-  --buttonOpacity: 0.9;
+  --buttonOpacity: 0.92;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #teamwork-icon {
-  --buttonOpacity: 0.85;
+  --buttonOpacity: 0.9;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #react-icon {
-  --buttonOpacity: 0.81;
+  --buttonOpacity: 0.88;
+  animation: buttonLike 2.5s ease forwards 0.5s;
+}
+#typescript-icon {
+  --buttonOpacity: 0.86;
+  animation: buttonLike 2.5s ease forwards 0.5s;
+}
+#mui-icon {
+  --buttonOpacity: 0.84;
+  animation: buttonLike 2.5s ease forwards 0.5s;
+}
+#redux-icon {
+  --buttonOpacity: 0.82;
+  animation: buttonLike 2.5s ease forwards 0.5s;
+}
+#git-icon {
+  --buttonOpacity: 0.8;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #css-icon {
-  --buttonOpacity: 0.8;
+  --buttonOpacity: 0.78;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 #html-icon {
   --buttonOpacity: 0.76;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
-#bootstrap-icon {
-  --buttonOpacity: 0.7;
-  animation: buttonLike 2.5s ease forwards 0.5s;
-}
 #django-icon {
-  --buttonOpacity: 0.69;
+  --buttonOpacity: 0.74;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
-#git-icon {
-  --buttonOpacity: 0.5;
-  animation: buttonLike 2.5s ease forwards 0.5s;
-}
-#coffee-icon {
-  --buttonOpacity: 0.3;
-  animation: buttonLike 2.5s ease forwards 0.5s;
-}
-#gamedev-icon {
-  --buttonOpacity: 0.35;
-  animation: buttonLike 2.5s ease forwards 0.5s;
-}
-#uxui-icon {
-  --buttonOpacity: 0.25;
+#bootstrap-icon {
+  --buttonOpacity: 0.72;
   animation: buttonLike 2.5s ease forwards 0.5s;
 }
 
